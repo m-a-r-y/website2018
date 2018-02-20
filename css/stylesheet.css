@@ -1,0 +1,108 @@
+/* TEMP STYLE */
+
+/* MUSIC CONTROLLER */
+#music-controller {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    opacity: .25;
+}
+#music-controller:hover {
+    opacity: 1;
+}
+
+.font-pink {
+    color: #d47777;
+    font-weight: bold;
+}
+
+.font-resume {
+    color: #4f8fc7;
+    font-weight: bold;
+}
+
+.temp-bg-img {
+    background-image: url(../images/temp-musicbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;}
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.h2 {
+    font-size: 30px;
+}
+p.h3 {
+    font-size: 24px;
+    line-height: 1.25;
+}
+p.h4 {
+    font-size: 18px;
+}
+/* END TEMP STYLE */
+
+li {
+    list-style-type: none;
+}
+
+.linkme {
+    color: #579f6a;
+}
+.linkme:hover {
+    color: #45ADA8;
+
+}
+
+#about h1 {
+    color: #45ADA8;
+}
+
+.featureimg {
+    margin: 20px 0px;
+}
+
+.mar-btm-lg {
+    margin-bottom: 40px;
+}
+
+.img-sm {
+    width: 25%;
+}
+.img-md {
+    width: 50%;
+}
+.img-lg {
+    width: 75%;
+}
+
+
+.li-space li {
+    border-bottom: 1px solid rgba(167, 227, 181, 0.5);
+    padding-bottom: 5px;
+}
+
+/* ACHIEVERS */
+/* TAKE YOUR PICK */
+
+.takeyourpick>.noteCard>.final>img {
+    display: inline;
+}
+
+/* MOBILE ACTION */
+/* DASHBOARD */
+
+.img-center>img {
+    margin-left: 25%;
+}
+
+
+.hideme {
+    display: none;
+}
+
+.btn-green, .btn-green:focus, .btn-green:active, .btn-green:hover {
+    background-color: #45ADA8 !important;
+    color: #ffffff !important;
+}
