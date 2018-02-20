@@ -201,10 +201,12 @@ a:hover {
   z-index: 3000;
   /*padding: 30px 0; VER.A */
   padding: 10px 0;
-  -webkit-transition: all 1s ease-out;
-  -moz-transition: all 1s ease-out;
-  -o-transition: all 1s ease-out;
-  transition: all 1s ease-out;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+  opacity: 0;
+  top: -100px;
 }
 .navbar .navbar-nav {
   float: none;
@@ -232,6 +234,14 @@ a:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
 }
+
+/* for logo */
+.navbar a.navbar-brand {
+  height: auto;
+  margin-top: 3px;
+}
+/* end logo */
+
 .navbar .navbar-nav li a:hover {
   background-color: #9DE0AD;
   outline: none;
@@ -305,12 +315,13 @@ a:hover {
   margin-top: 15px;
 }
 .minified {
-  opacity: 0.9;
+  top: 0;
+  opacity: 0.95;
   padding: 15px 0;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 /* ==========================================================================
    Jumbotron Section
