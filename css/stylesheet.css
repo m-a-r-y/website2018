@@ -290,5 +290,19 @@ img.leftimg{float:left;padding-right:20px;}
    ========================================================================== */
 .section-title {
     width: auto;
-    height: 460px;
+    height: auto;
+}
+
+.section-title h1 {
+    color: #fff;
+    font-size: 2em;
+}
+.section-title h3 {
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: 100;
+}
+
+#takeyourpick-title {
+    background-color: #313131;
 }
