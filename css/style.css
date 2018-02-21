@@ -2337,6 +2337,11 @@ a:hover {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #header h1, #header p {
+    /* height: auto; Ver A*/
+    height: 100%;
+    text-align: right;;
+  }
   .navbar .navbar-nav {
     float: right;
     margin: 2px 0 2px 0;
@@ -2606,14 +2611,31 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 
-.jumbotron [data-image-zoom=zoom] {
-  transform-origin: 50% 80%;
-  animation: imageZoom linear 50s;
-  animation-iteration-count: infinite;
-  -webkit-animation: imageZoom linear 50s;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation: imageZoom linear 50s;
-  -moz-animation-iteration-count: infinite;
-  -ms-animation: imageZoom linear 50s;
-  -ms-animation-iteration-count: infinite;
+/*.jumbotron {*/
+  /*transform-origin: 50% 80%;*/
+  /*animation: imageZoom linear 50s;*/
+  /*animation-iteration-count: infinite;*/
+  /*-webkit-animation: imageZoom linear 50s;*/
+  /*-webkit-animation-iteration-count: infinite;*/
+  /*-moz-animation: imageZoom linear 50s;*/
+  /*-moz-animation-iteration-count: infinite;*/
+  /*-ms-animation: imageZoom linear 50s;*/
+  /*-ms-animation-iteration-count: infinite;*/
+/*}*/
+
+/*@keyframes imageZoom {*/
+  /*0%, 100% {*/
+    /*transform: scale(1);*/
+  /*}*/
+  /*50% {*/
+    /*transform: scale(1.24);*/
+  /*}*/
+/*}*/
+
+/* logo margin */
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand {
+    margin-left: 15px;
+  }
 }
+/* logo margin end */
