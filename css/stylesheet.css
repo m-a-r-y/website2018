@@ -288,21 +288,33 @@ img.leftimg{float:left;padding-right:20px;}
 /* ==========================================================================
    Portfolio Page
    ========================================================================== */
-.section-title {
-    width: auto;
-    height: auto;
+#takeyourpick-title {
+    background-image: url(../assets/achievers/takeyourpick/title-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.section-title h1 {
+.portfolio-section-title {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.portfolio-section h1 {
     color: #fff;
     font-size: 2em;
 }
-.section-title h3 {
+.portfolio-section h3 {
     color: #fff;
     font-size: 1.25em;
     font-weight: 100;
 }
 
-#takeyourpick-title {
-    background-color: #313131;
+.portfolio-section p {
+    font-size: .8em;
 }
+
+/*.portfolio-section img {*/
+    /*width: 100%;*/
+/*}*/
+

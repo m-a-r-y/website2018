@@ -14,7 +14,7 @@
     padding: 70px;
 }
 .pad-all-xlg {
-    padding: 250px;
+    padding: 125px;
 }
 .pad-all-xxlg {
     padding: 325px;
@@ -30,7 +30,7 @@
     padding: 70px 0px;
 }
 .pad-ver-xlg {
-    padding: 250px 0px;
+    padding: 125px 0px;
 }
 .pad-ver-xxlg {
     padding: 325px 0px;
@@ -47,7 +47,7 @@
     padding: 0px 70px;
 }
 .pad-hor-xlg {
-    padding: 0px 250px;
+    padding: 0px 125px;
 }
 .pad-hor-xxlg {
     padding: 0px 325px;
@@ -63,7 +63,7 @@
     padding-top: 70px;
 }
 .pad-top-xlg {
-    padding-top: 250px;
+    padding-top: 125px;
 }
 .pad-top-xxlg {
     padding-top: 325px;
@@ -79,7 +79,7 @@
     padding-right: 70px;
 }
 .pad-rgt-xlg {
-    padding-right: 250px;
+    padding-right: 125px;
 }
 .pad-rgt-xxlg {
     padding-right: 325px;
@@ -95,7 +95,7 @@
     padding-bottom: 70px;
 }
 .pad-btm-xlg {
-    padding-bottom: 250px;
+    padding-bottom: 125px;
 }
 .pad-btm-xxlg {
     padding-bottom: 325px;
@@ -111,7 +111,7 @@
     padding-left: 70px;
 }
 .pad-lft-xlg {
-    padding-left: 250px;
+    padding-left: 125px;
 }
 .pad-lft-xxlg {
     padding-left: 325px;
@@ -134,7 +134,7 @@
     margin: 70px;
 }
 .mar-all-xlg {
-    margin: 250px;
+    margin: 125px;
 }
 .mar-all-xxlg {
     margin: 325px;
@@ -150,7 +150,7 @@
     margin: 70px 0px;
 }
 .mar-ver-xlg {
-    margin: 250px 0px;
+    margin: 125px 0px;
 }
 .mar-ver-xxlg {
     margin: 325px 0px;
@@ -166,7 +166,7 @@
     margin: 0px 70px;
 }
 .mar-hor-xlg {
-    margin: 0px 250px;
+    margin: 0px 125px;
 }
 
 .mar-top-sm {
@@ -179,7 +179,7 @@
     margin-top: 70px;
 }
 .mar-top-xlg {
-    margin-top: 250px;
+    margin-top: 125px;
 }
 
 .mar-rgt-sm {
@@ -192,7 +192,7 @@
     margin-right: 70px;
 }
 .mar-rgt-xlg {
-    margin-right: 250px;
+    margin-right: 125px;
 }
 
 .mar-btm-sm {
@@ -206,7 +206,7 @@
     margin-bottom: 70px;
 }
 .mar-btm-xlg {
-    margin-bottom: 250px;
+    margin-bottom: 125px;
 }
 
 .mar-lft-sm {
@@ -219,5 +219,14 @@
     margin-left: 70px;
 }
 .mar-lft-xlg {
-    margin-left: 250px;
+    margin-left: 125px;
+}
+
+
+/*FONT STYLE */
+.text-center {
+    text-align: center;
+}
+.font-bold{
+    font-weight: bold;
 }
