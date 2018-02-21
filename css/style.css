@@ -2604,3 +2604,16 @@ img.leftimg{float:left;padding-right:20px;}
     transition-delay: 0s;
     -webkit-transition-delay: 0s;
 }
+
+
+.jumbotron [data-image-zoom=zoom] {
+  transform-origin: 50% 80%;
+  animation: imageZoom linear 50s;
+  animation-iteration-count: infinite;
+  -webkit-animation: imageZoom linear 50s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation: imageZoom linear 50s;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation: imageZoom linear 50s;
+  -ms-animation-iteration-count: infinite;
+}
