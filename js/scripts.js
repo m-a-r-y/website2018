@@ -49,7 +49,8 @@ jQuery(document).ready(function() {
 
 
 		// Show "Back to Top" button
-		if (position >= headerHeight - 100){
+		//if (position >= headerHeight - 100){
+		if (position >= 100){
 			$('.scrolltotop').addClass('show-to-top');
 		} else {
 			$('.scrolltotop').removeClass('show-to-top');

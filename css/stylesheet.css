@@ -35,6 +35,14 @@
     font-weight: bold;
 }
 
+.font-green {
+    color: #31691C;
+}
+
+.font-white{
+    color: #ffffff;
+}
+
 .temp-bg-img {
     background-image: url(../images/temp-musicbg.png);
     background-repeat: no-repeat;
@@ -292,6 +300,7 @@ img.leftimg{float:left;padding-right:20px;}
     background-image: url(../assets/achievers/takeyourpick/title-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .portfolio-section-title {
@@ -311,7 +320,7 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 .portfolio-section p {
-    font-size: .8em;
+    font-size: .9em;
 }
 
 /*.portfolio-section img {*/

@@ -230,3 +230,6 @@
 .font-bold{
     font-weight: bold;
 }
+.font-bold-none{
+    font-weight: normal;
+}
