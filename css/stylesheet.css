@@ -323,7 +323,7 @@ img.leftimg{float:left;padding-right:20px;}
     font-size: .9em;
 }
 
-/*.portfolio-section img {*/
-    /*width: 100%;*/
-/*}*/
+#MAdashboard-development img {
+    margin-top: -5px;
+}
 
