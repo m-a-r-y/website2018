@@ -298,12 +298,23 @@ img.leftimg{float:left;padding-right:20px;}
    ========================================================================== */
 #takeyourpick-title {
     background-image: url(../assets/achievers/takeyourpick/title-bg.png);
+    background-position: left;
+}
+
+#MAdashboard-title {
+    background-image: url(../assets/mobileaction/dashboard/title-bg.png);
+    background-position: center;
+}
+#MAdashboard-development img {
+    margin-top: -5px;
+}
+
+
+.portfolio-section-title {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
 
-.portfolio-section-title {
     width: auto;
     height: auto;
     text-align: center;
@@ -323,7 +334,4 @@ img.leftimg{float:left;padding-right:20px;}
     font-size: .9em;
 }
 
-#MAdashboard-development img {
-    margin-top: -5px;
-}
 
