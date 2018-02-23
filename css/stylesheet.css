@@ -309,6 +309,9 @@ img.leftimg{float:left;padding-right:20px;}
     margin-top: -5px;
 }
 
+#showcase h5 {
+    margin-top: 7px;
+}
 
 .portfolio-section-title {
     background-repeat: no-repeat;
