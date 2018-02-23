@@ -14,8 +14,8 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/globalstyle.css" />
     <link rel="stylesheet" href="css/prettyPhoto.css" />
-    <link rel="import" href="showme.html">
 
     <script src="lightbox/js/jquery-1.11.0.min.js"></script>
     <script src="lightbox/js/lightbox.min.js"></script>
@@ -31,7 +31,7 @@
 <body data-spy="scroll" data-target="#my-nav" id="cbp-so-scroller">
 
 <!-- Navigation Bar -->
-<div class="navbar navbar-fixed-top minified">
+<div class="navbar navbar-fixed-top minified navbar-pages">
     <div class="container">
 
         <div class="navbar-header">
@@ -40,16 +40,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <!-- <a class="navbar-brand" href="index.html">Mary Le</a> -->
+            <a class="navbar-brand" href="index.html"><img src="images/MLlogo.png" alt="Logo" onclick="window.location.href='index.html'"></a>
         </div>
 
         <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About Me</a></li>
                 <li><a href="index.html#portfolio">Portfolio</a></li>
                 <li><a href="assets/mary.le.resume.pdf" target="_blank">Resume</a></li>
-                <!-- <li><a href="index.html#contact">Contact</a></li> -->
             </ul>
         </nav><!--/.navbar-collapse -->
 
@@ -58,94 +56,130 @@
 <!-- End of Navigation Bar -->
 
 <!-- About Section -->
-<section id="showcase" class="cbp-so-section cbp-so-init">
-    <div class="container cbp-so-side-top">
+<div id="showcase" class="portfolio-section pageFade">
 
-        <!--Sidebar-->
-        <div class="one_of_3 hidden-xs">
-            <div class="sidebar">
-                <a href="NPUbanners.html"><img class="smallThumb" src="assets/NPU/blue-logo-circle-img.png" alt="NPU Banners"/></a>
-                <a href="MAdashboard.html"><img class="smallThumb" src="assets/mobileaction/logo_white.png" alt="Mobile Action Dashboard"/></a>
-                <a href="MAemail.html"><img class="smallThumb" src="assets/mobileaction/logo_bg.png" alt="Mobile Action Projects"/></a>
-                <a href="achievers.html"><img class="smallThumb" src="assets/achievers/corp/logo.png" alt="Achievers"/></a>
-                <!--<a href="ace.html"><img class="smallThumb" src="assets/achievers/ace/logo.png" alt="ACE"/></a>-->
-                <a href="takeyourpick.html"><img class="smallThumb" src="assets/achievers/takeyourpick/logo.png" alt="Take Your Pick"/></a>
-                <a href="sms.html"><img class="smallThumb" src="assets/securemysocial/smslogo.png" alt="SecureMySocial"/></a>
-                <!--<a href="showmewhere.html"><img class="smallThumb" src="assets/showmewhere/smw1.png" alt="Show Me Where"/></a>-->
-                <!--<a href="lockerletters.html"><img class="smallThumb" src="assets/lockerletters/bird.png" alt="Locker Letters"/></a>-->
-                <!-- <a href="restapp.html"><img class="smallThumb" src="assets/restapp/rest-app.png" alt="Restaurant App"/></a> -->
-                <a href="#"><img class="smallThumb" src="assets/comingsoon.png" alt="Coming Soon!"/></a>
-            </div>
+    <!-- Title Section -->
+    <section id="sms-title" class="portfolio-section-title mar-btm-md">
+        <div class="container pad-ver-lg">
+            <h1 class="mar-ver-lg">New Dashboard: For App Makers</h1>
+            <h3 class="mar-top-md">Providing data & analytic for app store optimization.</h3>
+            <h3 class="mar-top-md pad-btm-lg">Total product redesign & development.</h3>
         </div>
+    </section>
 
-        <!--End of Side Bar-->
+    <!-- Story Section -->
+    <section id="MAdashboard-story" class="clearfix">
+        <div class="container pad-ver-md">
+            <div class="col-md-3 mar-btm-lg">
+                <h6 class="font-bold">COMPANY</h6>
+                <h6>Mobile Action</h6>
+                <h6 class="font-bold mar-top-md">YEAR</h6>
+                <h6>December 2015</h6>
+                <h6 class="font-bold mar-top-md">ROLE</h6>
+                <h6>Product designer</h6>
+                <h6>Front-end developer</h6>
+                <h6 class="font-bold mar-top-md">TOOLS</h6>
+                <h6>Balsamiq</h6>
+                <h6>Sketch</h6>
+                <h6>HTML/CSS/LESS</h6>
+            </div>
 
-        <!--Showcase-->
-        <div class="two_of_3">
-            <h1>Website Redesign: SecureMySocial</h1>
-
-            <div class="noteCard">
-                <a href="lightbox/img/oldsms1.png" data-lightbox="color" data-title="Old SMS Homepage">
-                    <img class="square_b img-responsive" src="assets/securemysocial/oldsms1.png">
-                </a>
-                <h3 class="subtitle hidden-xs">Old SMS Homepage</h3>
-
-                <h3>Objective</h3>
-                <p> The focus of this project was to give SecureMySocial's old website a complete modern and sleek look; the
-                    aim was to reorganize and present content concisely and attractively while effectively maintaining and
-                    conveying the SecureMySocial message.
+            <div class="col-md-9 mar-btm-lg">
+                <p>Mobile Action's dashboard is the heart and soul of the company and what it has to offer. This product feed users information and analytics on not only their app performance but also their competitors' performance on the Google Play Store and Apple App Store. All the data provided by Mobile Action analytics can help users become more proactive in making their app gain more visibility and generate more downloads.
                 </p>
-                <a href="lightbox/img/oldbusiness.png" data-lightbox="color" data-title="Old SMS Business Page">
-                    <img class="square_b img-responsive" src="assets/securemysocial/oldbusiness.png">
-                </a>
-                <h3 class="subtitle hidden-xs">Old SMS Business Page</h3>
-
-                <h3>The Story</h3>
-                <p> After some research on other professional business website and determining the type of audience SecureMySocial would attract,
-                    I opted for an image carousel to display information for the three audience: businesses, parents, and individuals.
-                </p>
-                <a href="lightbox/img/newsms7.png" data-lightbox="color" data-title="New SMS Business Page">
-                    <img class="square_b img-responsive" src="assets/securemysocial/newsms7.png">
-                </a>
-                <a href="lightbox/img/newsms8.png" data-lightbox="color" data-title="New SMS Business Page">
-                    <img class="square_b img-responsive" src="assets/securemysocial/newsms8.png">
-                </a>
-                <h3 class="subtitle hidden-xs">New SMS Business Page</h3>
-
-                <h3>Challenges</h3>
-                <p> The freedom of redesigning this website was what made it a fun yet challenging task. To start, I knew that most websites
-                    opt for a long, single page scroll layout with call to actions leading to other heavy contents. The other
-                    main issue that I wanted to address was how the information was organized and displayed. Also, since the client wanted
-                    to keep their logo, I decided to stick to a similar color scheme and worked my way around that.
-                </p>
-                <a href="lightbox/img/oldsmsfaq.png" data-lightbox="color" data-title="Old SMS FAQ Page">
-                    <img class="square_b img-responsive" src="assets/securemysocial/oldsmsfaq.png">
-                </a>
-                <h3 class="subtitle hidden-xs">Old SMS FAQ Page</h3>
-                <p>
-                    In the FAQ section, instead of displaying all questions and answers, I wanted an accordion to help group and display FAQ
-                    for users to quickly navigate the page.
-                </p>
-                <a href="lightbox/img/newsmsfaq.png" data-lightbox="color" data-title="New SMS FAQ Page">
-                    <img class="square_b img-responsive" src="assets/securemysocial/newsmsfaq.png">
-                </a>
-                <h3 class="subtitle hidden-xs">New SMS FAQ Page</h3>
-
-                <h3>Final Product</h3>
-                <p> After addressing all the concerns above, I also added an additional feature to the webstie: the blog. I went with Blogger as a blogging platform for the client to use and went into Blogger to modify the default layout to match the website's current design. 
+                <p class="mar-ver-md">The focus and goal of this complete UI redesign was simplify the old design and streamlining the process for users to easily optimize their application.
                 </p>
             </div>
 
-            <div class="mar-btm-lg">
-                <button type="button" class="btn btn-green">
-                    <a class="a" href="http://www.securemysocial.com" target="_blank">check it out here</a>
-                </button>
-            </div>
         </div>
-        <!--End of Showcase-->
+    </section>
 
-    </div>
-</section>
+    <!-- Development Section -->
+    <section id="MAdashboard-development" class="clearfix">
+        <div class="container pad-ver-md">
+            <div class="col-md-3 mar-btm-lg">
+                <h5 class="font-bold">OLD DASHBOARD PRODUCT</br>WITH DUMMY DATA</h5>
+            </div>
+
+            <div class="col-md-9 mar-btm-lg">
+                <img src="assets/mobileaction/dashboard/old-dashboard2.png" class="img-responsive">
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Challenge Section -->
+    <section id="MAdashboard-worksamp" class="clearfix">
+        <div class="container pad-ver-md">
+            <div class="col-md-3 mar-btm-lg">
+                <h5 class="font-bold">WORK SAMPLES</h5>
+            </div>
+
+            <div class="col-md-9 mar-btm-lg">
+                <p>Working with the product team to decide on the layout presentation of the new UI, one of the essential focuses was the navigation. For the main navigation on the left side, I wanted to transform the old dropdown accordion list to a more openly transparent navigation list for users to quick access any desired features. Also, moving the fundamental navigation options such as "Settings" to the top right corner of the page allows the focus for the side bar navigation to be solely on app relevance.
+                </p>
+
+                <div class="mar-top-lg">
+                    <p class="">Navigation bar progression from the old version to the final version:</p>
+                    <div class="pad-ver-sm">
+                        <img src="assets/mobileaction/dashboard/navbar-progress.png" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Challenge Section -->
+    <section id="MAdashboard-challenge" class="clearfix">
+        <div class="container pad-ver-md">
+            <div class="col-md-3 mar-btm-lg">
+                <h5 class="font-bold">CHALLENGES AND SOLUTIONS</h5>
+            </div>
+
+            <div class="col-md-9 mar-btm-lg">
+                <p>One of the main challenges imposed on this project was the time frame and role responsibilities. Agile development was necessary for quick pushes and multiple iterations for production. As a team, we had to repeatedly learn how to not get caught up with the little details and to release quickly to make deadlines. Communication was also another major factor since the Project Managers, whose English was a second language. Also, there was an unclear role assignment on who was the primary Designers for the project.
+                </p>
+
+                <div class="mar-top-lg">
+                    <div class="pad-ver-sm">
+                        <img src="assets/mobileaction/dashboard/challenges.png" class="img-responsive">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Final Section -->
+    <section id="MAdashboard-final" class="clearfix">
+        <div class="container pad-ver-md">
+            <div class="col-md-3 mar-btm-lg">
+                <h5 class="font-bold">FINAL PRODUCT</h5>
+            </div>
+
+            <div class="col-md-9 mar-btm-lg">
+                <p>The final product had over 7+ screens, each screen asking and collecting different data from the attendees at events. The final screen is customized depending on the participant’s answers on some of the previous screens hence the two different versions.
+                </p>
+
+                <div class="mar-top-lg">
+                    <p class="">Sample of the final dashboard screen with dummy data:
+                    </p>
+                    <div class="pad-ver-sm">
+                        <img src="assets/mobileaction/dashboard/dashboard-shadow.png" class="img-responsive">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+</div>
 <!-- End of About Section -->
 
 
@@ -160,6 +194,7 @@
     <i class="fa fa-chevron-up"></i>
 </div>
 <!-- End of Footer -->
+
 
 
 <!-- Bootstrap core JavaScript

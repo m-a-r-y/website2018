@@ -309,6 +309,12 @@ img.leftimg{float:left;padding-right:20px;}
     margin-top: -5px;
 }
 
+#sms-title {
+    background-image: url(../assets/securemysocial/title-bg.png);
+    background-position: center;
+}
+
+
 #showcase h5 {
     margin-top: 7px;
 }
