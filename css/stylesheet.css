@@ -36,7 +36,7 @@
 }
 
 .font-green {
-    color: #31691C;
+    color: #35a04f;
 }
 
 .font-white{
@@ -294,6 +294,47 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 /* ==========================================================================
+   About Me
+   ========================================================================== */
+#aboutme .timeframe p {
+    font-size: .85em;
+
+}
+#aboutme .timeframe .time-title {
+    font-family: Consolas, Courier, monospace;
+    text-align: right;
+    /*border-right: 3px solid #45ADA8;*/
+    /*height: auto;*/
+    /*margin-top: 2%;*/
+}
+
+#aboutme .timeframe .time-icon  {
+    float: left;
+}
+
+#aboutme .timeframe .time-description {
+    /*margin-top: 2%;*/
+}
+
+
+@media (max-width: 768px) {
+    #aboutme .timeframe .time-icon  {
+        float: right;
+    }
+}
+@media (max-width: 991px) {
+    #aboutme .timeframe .time-title {
+        text-align: left;
+        border-left: 3px solid #45ADA8;
+        border-right: none;
+    }
+}
+
+/* ==========================================================================
+   End About Me
+   ========================================================================== */
+
+/* ==========================================================================
    Portfolio Page
    ========================================================================== */
 #takeyourpick-title {
@@ -343,4 +384,6 @@ img.leftimg{float:left;padding-right:20px;}
     font-size: .9em;
 }
 
-
+/* ==========================================================================
+   End Portfolio Page
+   ========================================================================== */

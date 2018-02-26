@@ -1,3 +1,7 @@
+.clearfix {
+    clear: both;
+}
+
 /*PADDING STYLE */
 
 .pad-none {
