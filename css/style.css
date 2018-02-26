@@ -2236,7 +2236,7 @@ a:hover {
   background-color: #253538;
   text-align: center;
 }
-.footer p {
+.footer p, .footer a {
   color: #b6d5be;
   line-height: 1.666666666666667;
   margin: 25px 0;
