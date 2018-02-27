@@ -36,7 +36,7 @@
 }
 
 .font-green {
-    color: #35a04f;
+    color: #006618;
 }
 
 .font-white{
@@ -296,6 +296,13 @@ img.leftimg{float:left;padding-right:20px;}
 /* ==========================================================================
    About Me
    ========================================================================== */
+#aboutme {
+    padding: 100px 0;
+    background: transparent url('../images/aboutmelayover.png') left;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
 #aboutme .timeframe p {
     font-size: .85em;
 
