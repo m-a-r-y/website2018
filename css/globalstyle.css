@@ -230,9 +230,23 @@
 .text-center {
     text-align: center;
 }
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
 .font-bold{
     font-weight: bold;
 }
+.font-light {
+    font-weight: lighter;
+}
 .font-bold-none{
     font-weight: normal;
+}
+
+/*POSITION STYLE */
+.position-fixed {
+    position: fixed;
 }

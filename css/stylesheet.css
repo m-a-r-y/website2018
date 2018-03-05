@@ -436,14 +436,17 @@ p.ph5 {
     font-size: .7em;
 }
 
-.font-blue-grey {
-    color: #547980;
-}
+
 
 .font-white{
     color: #ffffff;
 }
-
+.font-grey-dark {
+    color: #515151;
+}
+.font-blue-grey {
+    color: #547980;
+}
 .font-DD-blue {
     color: #8dafc3;
 }

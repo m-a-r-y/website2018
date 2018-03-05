@@ -337,6 +337,7 @@ a:hover {
   font-size: 1em;
   height: auto;
   overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
 }
 .jumbotron .container {
   text-align: center;
@@ -351,13 +352,14 @@ a:hover {
   /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
 }
 .jumbotron p {
-  font-size: 1.57em;
+  font-size: 1.52em;
   line-height: 1.333333333333333em;
-  color: #006618;
+  color: #547980;
   /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
   font-weight: 500;
   margin-bottom: 40px;
   opacity: 0;
+  text-align: right;
 }
 .jumbotron p .btn {
   color: #fff;
@@ -716,7 +718,7 @@ a:hover {
   margin-bottom: 30px;
 }
 
-/*  ----------
+
 
 #portfolio .portfolio-row .portfolio-mix .portfolio-item a {
   display: inline-block;
@@ -741,6 +743,8 @@ a:hover {
   -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
+
+
 #portfolio .portfolio-row .portfolio-mix .portfolio-item a .caption-bg {
   position: absolute;
   top: 20px;
@@ -840,9 +844,11 @@ a:hover {
   transition-delay: 0.4s;
   -webkit-transition-delay: 0.4s;
 }
+
 #portfolio .portfolio-row .portfolio-mix .portfolio-item a:hover h3 {
   opacity: 1;
-  top: 24%;
+  /*top: 24%; original*/
+  top: 40%;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
@@ -850,6 +856,7 @@ a:hover {
   transition-delay: 0.3s;
   -webkit-transition-delay: 0.3s;
 }
+
 #portfolio .portfolio-row .portfolio-mix .portfolio-item a:hover .portfolio-item-description {
   opacity: 1;
   top: 54%;
@@ -860,6 +867,7 @@ a:hover {
   transition-delay: 0.6s;
   -webkit-transition-delay: 0.6s;
 }
+/*  ----------
 
 -------------------    */
 
