@@ -34,8 +34,8 @@ h3,
 h4,
 h5,
 h6 {
-  /*font-family: 'Ubuntu', sans-serif;*/
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Helvetica', sans-serif;*/
 }
 h1 {
   font-size: 2.888888888888889em;
@@ -207,8 +207,8 @@ a:hover {
   -moz-transition: all .5s ease-out;
   -o-transition: all .5s ease-out;
   transition: all .5s ease-out;
-  opacity: 0;
-  top: -100px;
+  opacity: 1;
+  /*top: -100px;*/
 }
 .navbar .navbar-nav {
   float: none;
@@ -2348,7 +2348,7 @@ a:hover {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  #header h1, #header p {
+  #header h1, #header h2, #header h3  {
     /* height: auto; Ver A*/
     height: 100%;
     text-align: right;;
