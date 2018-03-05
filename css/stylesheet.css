@@ -413,6 +413,9 @@ img.leftimg{float:left;padding-right:20px;}
    Fonts & Backgrounds
    ========================================================================== */
 
+.font-book {
+    font-family: 'Book Antiqua', serif;
+}
 
 p.h3 {
     font-size: 24px;
@@ -448,6 +451,30 @@ p.ph5 {
 
 .bg-grey {
     background-color: #f9f9f9;
+}
+
+.bg-fade-red {
+    background-color: #F6E3E3;
+}
+
+.bg-lines-yellow {
+    background-image: url(../images/bg-yellow-lines.png);
+    background-position: left;
+}
+.bg-lines-yellow2 {
+    background-image: url(../images/bg-yellow-lines2.png);
+    background-position: right;
+}
+
+.bg-lines-red {
+    background-image: url(../images/bg-red-lines.png);
+    background-position: left;
+    background-size: cover;
+}
+.bg-triangle-blue {
+    background-image: url(../images/bluelayover.png);
+    background-position: left;
+    background-size: cover;
 }
 
 /* ==========================================================================
