@@ -678,8 +678,10 @@ a:hover {
 }
 #portfolio h1 {
   margin: 0 0 40px 0;
-  color: #45ADA8;
+  /*color: #45ADA8; original*/
+  color: #4aaca7;
 }
+
 #portfolio .cat-list {
   text-align: center;
   list-style-type: none;
@@ -713,6 +715,9 @@ a:hover {
   display: none;
   margin-bottom: 30px;
 }
+
+/*  ----------
+
 #portfolio .portfolio-row .portfolio-mix .portfolio-item a {
   display: inline-block;
   position: relative;
@@ -855,6 +860,10 @@ a:hover {
   transition-delay: 0.6s;
   -webkit-transition-delay: 0.6s;
 }
+
+-------------------    */
+
+
 #portfolio .btn {
   margin: 0 10px;
 }

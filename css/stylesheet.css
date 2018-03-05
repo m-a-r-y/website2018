@@ -302,6 +302,9 @@ img.leftimg{float:left;padding-right:20px;}
     background-size: cover;
     background-repeat:no-repeat;
 }
+#aboutme h2 {
+    color: #4aaca7;
+}
 
 #aboutme .timeframe p {
     font-size: .85em;
@@ -433,8 +436,8 @@ p.ph5 {
     font-size: .7em;
 }
 
-.font-green {
-    color: #006618;
+.font-blue-grey {
+    color: #547980;
 }
 
 .font-white{
