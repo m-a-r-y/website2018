@@ -250,3 +250,7 @@
 .position-fixed {
     position: fixed;
 }
+.img-center {
+    display:block;
+    margin:auto;
+}
