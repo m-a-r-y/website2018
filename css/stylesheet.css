@@ -327,23 +327,7 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 
-@media (max-width: 768px) {
-    #aboutme .timeframe .time-icon  {
-        float: right;
-    }
-}
-@media (max-width: 991px) {
-    #aboutme .timeframe .time-title {
-        text-align: left;
-        border-left: 3px solid #45ADA8;
-        border-right: none;
-    }
-}
-@media (min-width: 1200px) {
-    #aboutme .timeframe .time-title {
-        margin-top: 2%;
-    }
-}
+
 
 /* ==========================================================================
    End About Me
@@ -411,6 +395,11 @@ img.leftimg{float:left;padding-right:20px;}
     font-size: 100px;
 }
 
+
+#takeyourpick-final iframe {
+    width: 640px ;
+    height: 360px ;
+}
 
 
 /* ==========================================================================
@@ -490,4 +479,35 @@ p.ph5 {
 
 /* ==========================================================================
    End Fonts & Backgrounds
+   ========================================================================== */
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media (max-width: 768px) {
+    #aboutme .timeframe .time-icon  {
+        float: right;
+    }
+
+    #takeyourpick-final iframe {
+        width: 58%;
+        height: 58%;
+    }
+
+}
+@media (max-width: 991px) {
+    #aboutme .timeframe .time-title {
+        text-align: left;
+        border-left: 3px solid #45ADA8;
+        border-right: none;
+    }
+}
+@media (min-width: 1200px) {
+    #aboutme .timeframe .time-title {
+        margin-top: 2%;
+    }
+}
+
+/* ==========================================================================
+   End Media Queries
    ========================================================================== */
