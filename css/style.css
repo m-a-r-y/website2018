@@ -40,9 +40,9 @@ h6 {
 h1 {
   font-size: 2.888888888888889em;
   text-transform: uppercase;
-  /*font-weight: 700;*/
-  font-weight: 500;
-  /*text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);*/
+  font-weight: 700;
+  /*font-weight: 500;*/
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
 }
 a {
   color: #717171;
@@ -309,7 +309,8 @@ a:hover {
   background-color: #8b8b8b;
 }
 .navbar .navbar-collapse {
-  background-color: rgba(0, 0, 0, 0.96);
+  /*background-color: rgba(0, 0, 0, 0.96); original*/
+  background-color: #303030;
   text-align: center;
   -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.5);
@@ -332,12 +333,15 @@ a:hover {
   padding: 150px 0 60px;
   margin-top: 0;
   margin-bottom: 0;
-  background: transparent url('../images/background.png') center center;
+  background: transparent url('../images/background.png') bottom center;
   background-size: cover;
   font-size: 1em;
   height: auto;
   overflow: hidden;
   font-family: 'Ubuntu', sans-serif;
+  -webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
 }
 .jumbotron .container {
   text-align: center;
@@ -359,7 +363,6 @@ a:hover {
   font-weight: 500;
   margin-bottom: 40px;
   opacity: 0;
-  text-align: right;
 }
 .jumbotron p .btn {
   color: #fff;
@@ -674,9 +677,13 @@ a:hover {
   background-color: #f9f9f9;
   text-align: center;
   padding: 100px 0;
-  -webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);
+  /*-webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
+  /*-moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
+  /*box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
+  -webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
 }
 #portfolio h1 {
   margin: 0 0 40px 0;
@@ -886,6 +893,14 @@ a:hover {
 }
 #portfolio p .btn-outline-white {
   text-transform: uppercase;
+}
+
+#portfolio {
+  transition: top 0.2s ease-in, opacity 0.2s ease-in
+-webkit-transition: top 0.2s ease-in, opacity 0.2s ease-in
+opacity: 0.0;
+  position: relative;
+  top: 20px;
 }
 /* ==========================================================================
    Testimonials Section
@@ -2365,10 +2380,10 @@ a:hover {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  #header h1, #header h2, #header h3  {
+  #header h1, #header h2, #header h3, #header p  {
     /* height: auto; Ver A*/
     height: 100%;
-    text-align: right;;
+    text-align: right;
   }
   .navbar .navbar-nav {
     float: right;
@@ -2404,7 +2419,8 @@ a:hover {
 @media (min-width: 1200px) {
   #header {
     /* height: auto; Ver A*/
-    height: 100%;
+    /*height: 100%;*/
+    height: 75%;
   }
   #testimonials .da-slider {
     height: 280px;
