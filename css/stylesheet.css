@@ -507,6 +507,12 @@ p.ph5 {
     background-position: left;
     background-repeat: no-repeat;
 }
+.bg-jumbo-green {
+    background-image: url(../images/bg-jumbo-green.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* ==========================================================================
    End Fonts & Backgrounds
    ========================================================================== */
