@@ -125,10 +125,25 @@ li {
     display: none;
 }
 
-/*.btn-green, .btn-green:focus, .btn-green:active, .btn-green:hover {*/
-    /*background-color: #45ADA8 !important;*/
-    /*color: #ffffff !important;*/
-/*}*/
+#portfolio .btn-view {
+    /*margin: 0 10px; original*/
+    padding: 12px 24px;
+    color: #5F9A73;
+    background-color: #ffffff;
+    border: 2px solid #5F9A73;
+}
+#portfolio .btn-view:hover {
+    /*margin: 0 10px; original*/
+    padding: 12px 24px;
+    color: #ffffff;
+    background-color: #5F9A73;
+    border: 2px solid #5F9A73;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
 
 /* ==========================================================================
    Media Queries
@@ -303,12 +318,11 @@ img.leftimg{float:left;padding-right:20px;}
     background-repeat:no-repeat;
 }
 #aboutme h2 {
-    color: #4aaca7;
+    color: #5F9A73;
 }
 
-#aboutme .timeframe p {
+#aboutme p, #portfolio p {
     font-size: .85em;
-
 }
 #aboutme .timeframe .time-title {
     text-align: right;
@@ -483,7 +497,16 @@ p.ph5 {
     background-position: left;
     background-size: cover;
 }
-
+.bg-triangle-green {
+    background-image: url(../images/bg-triangle-green.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.bg-green {
+    background-image: url(../images/bg-green.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
 /* ==========================================================================
    End Fonts & Backgrounds
    ========================================================================== */

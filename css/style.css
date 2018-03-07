@@ -85,7 +85,8 @@ a:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border: 2px solid #fff;
+  /*border: 2px solid #fff;*/
+  border: 2px solid #6c9572;
   display: inline-block;
 }
 .round-outline .round-photo {
@@ -245,7 +246,8 @@ a:hover {
 /* end logo */
 
 .navbar .navbar-nav li a:hover {
-  background-color: #9DE0AD;
+  /*background-color: #9DE0AD;*/
+  background-color: #5F9A73;
   outline: none;
   color: #fff;
 }
@@ -254,7 +256,8 @@ a:hover {
   outline: none;
 }
 .navbar .navbar-nav li:hover {
-  background-color: #9DE0AD;
+  /*background-color: #9DE0AD;*/
+  background-color: #5F9A73;
   color: #fff;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -263,7 +266,8 @@ a:hover {
   background-clip: padding-box;
 }
 .navbar .navbar-nav .active {
-  background-color: #9DE0AD;
+  /*background-color: #9DE0AD;*/
+  background-color: #5F9A73;
   color: #fff;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -330,25 +334,28 @@ a:hover {
    Jumbotron Section
    ========================================================================== */
 .jumbotron {
-  padding: 150px 0 60px;
+  /*padding: 150px 0 60px; original*/
+  padding: 60px 0 60px;
   margin-top: 0;
   margin-bottom: 0;
-  background: transparent url('../images/background.png') bottom center;
+  background: transparent url('../images/opto-background.png') bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   font-size: 1em;
   height: auto;
   overflow: hidden;
   font-family: 'Ubuntu', sans-serif;
-  -webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  /*-webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);*/
+  /*-moz-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);*/
+  /*box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);*/
 }
 .jumbotron .container {
   text-align: center;
 }
 .jumbotron h1 {
   color: #fff;
-  font-size: 2.888888888888889em;
+  /*font-size: 2.888888888888889em; original*/
+  font-size: 3em;
   margin-top: 40px;
   margin-bottom: 20px;
   padding-top: 80px;
@@ -358,8 +365,8 @@ a:hover {
 .jumbotron p {
   font-size: 1.52em;
   line-height: 1.333333333333333em;
-  color: #547980;
-  /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   font-weight: 500;
   margin-bottom: 40px;
   opacity: 0;
@@ -674,15 +681,18 @@ a:hover {
    Portfolio Section
    ========================================================================== */
 #portfolio {
-  background-color: #f9f9f9;
+  font-family: "Book Antiqua", sans-serif;
   text-align: center;
+  /*padding: 100px 0; original*/
   padding: 100px 0;
-  /*-webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
-  /*-moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
-  /*box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
-  -webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  /*upper border*/
+    /*-webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
+    /*-moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
+    /*box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
+  /*bottom border*/
+    -webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);
   opacity: 0;
 }
 #portfolio h1 {
@@ -690,7 +700,23 @@ a:hover {
   /*color: #45ADA8; original*/
   color: #4aaca7;
 }
+#portfolio h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: "Book Antiqua", sans-serif;
+}
 
+.border-bottom {
+  border-bottom: 4px solid rgba(0, 0, 0, .1);
+}
+#portfolio .portfolio-desc-r {
+  text-align: left;
+  padding-left: 50px;
+}
+#portfolio .portfolio-desc-l {
+  text-align: right;
+  padding-right: 50px;
+}
 #portfolio .cat-list {
   text-align: center;
   list-style-type: none;
@@ -714,7 +740,7 @@ a:hover {
   display: none;
 }
 #portfolio .portfolio-row {
-  margin-bottom: 40px;
+  /*margin-bottom: 40px;*/
   list-style-type: none;
   height: auto;
   padding: 0;
@@ -730,25 +756,25 @@ a:hover {
 #portfolio .portfolio-row .portfolio-mix .portfolio-item a {
   display: inline-block;
   position: relative;
-  -webkit-transition: all 0.4s ease-out;
-  -moz-transition: all 0.4s ease-out;
-  -o-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
+  /*-webkit-transition: all 0.4s ease-out;*/
+  /*-moz-transition: all 0.4s ease-out;*/
+  /*-o-transition: all 0.4s ease-out;*/
+  /*transition: all 0.4s ease-out;*/
+  /*-webkit-border-radius: 4px;*/
+  /*border-radius: 4px;*/
+  /*-moz-background-clip: padding;*/
+  /*-webkit-background-clip: padding-box;*/
+  /*background-clip: padding-box;*/
 }
 #portfolio .portfolio-row .portfolio-mix .portfolio-item a img {
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  /*-webkit-border-radius: 4px;*/
+  /*border-radius: 4px;*/
+  /*-moz-background-clip: padding;*/
+  /*-webkit-background-clip: padding-box;*/
+  /*background-clip: padding-box;*/
+  /*-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
+  /*-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
+  /*box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
 }
 
 
@@ -878,10 +904,6 @@ a:hover {
 
 -------------------    */
 
-
-#portfolio .btn {
-  margin: 0 10px;
-}
 #portfolio .btn-outline-white {
   color: #9DE0AD;
   text-transform: none;
@@ -2277,7 +2299,7 @@ opacity: 0.0;
   text-align: center;
 }
 .footer p, .footer a {
-  color: #b6d5be;
+  color: #ffffff;
   line-height: 1.666666666666667;
   margin: 25px 0;
 }
@@ -2420,7 +2442,7 @@ opacity: 0.0;
   #header {
     /* height: auto; Ver A*/
     /*height: 100%;*/
-    height: 75%;
+    height: 60%;
   }
   #testimonials .da-slider {
     height: 280px;
