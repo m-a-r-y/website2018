@@ -308,6 +308,22 @@ img.leftimg{float:left;padding-right:20px;}
     animation-duration:1s;
 }
 
+
+.section-break {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+}
+.section-break h1 {
+    color: #ffffff;
+    font-size: 2em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
 /* ==========================================================================
    About Me
    ========================================================================== */
@@ -469,11 +485,14 @@ p.ph5 {
 .bg-grey {
     background-color: #f9f9f9;
 }
-
 .bg-fade-red {
     background-color: #F6E3E3;
 }
-
+.bg-thailand {
+    background-image: url(../images/bg-thailand.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
 .bg-lines-yellow {
     background-image: url(../images/bg-yellow-lines.png);
     background-position: right;
@@ -508,10 +527,7 @@ p.ph5 {
     background-repeat: no-repeat;
 }
 .bg-jumbo-green {
-    background-image: url(../images/bg-jumbo-green.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #739a79;
 }
 /* ==========================================================================
    End Fonts & Backgrounds
