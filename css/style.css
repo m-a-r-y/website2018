@@ -338,7 +338,7 @@ a:hover {
   padding: 60px 0 60px;
   margin-top: 0;
   margin-bottom: 0;
-  background: transparent url('../images/opto-background.png') bottom;
+  background: transparent url('../images/opto-bg-thailand-50-min.png') bottom;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ffffff;
@@ -2296,7 +2296,7 @@ opacity: 0.0;
    Footer Section
    ========================================================================== */
 .footer {
-  background-color: #739a79;
+  background-color: #253538;
   text-align: center;
 }
 .footer p, .footer a {
