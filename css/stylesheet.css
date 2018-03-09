@@ -288,25 +288,6 @@ img.leftimg{float:left;padding-right:20px;}
 /*}*/
 
 
-/* make keyframes that tell the start state and the end state of our object */
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.pageFade {
-    opacity:0;  /* make things invisible upon start */
-    -webkit-animation:fadeIn ease 1;  /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
-    -moz-animation:fadeIn ease 1;
-    animation:fadeIn ease 1;
-
-    -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-    -moz-animation-fill-mode:forwards;
-    animation-fill-mode:forwards;
-
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    animation-duration:1s;
-}
 
 
 .section-break {
@@ -328,19 +309,27 @@ img.leftimg{float:left;padding-right:20px;}
    About Me
    ========================================================================== */
 #aboutme {
-    padding: 100px 0;
-    background: transparent url('../images/aboutmelayover.png') left;
-    background-size: cover;
-    background-repeat:no-repeat;
+    padding-top: 65px;
 }
-#aboutme h2 {
+
+#aboutmeheader {
+}
+#aboutmeinfo{
+    opacity: 0;
+}
+#aboutmebody h2 {
     color: #5F9A73;
 }
 
-#aboutme p, #portfolio p {
+#aboutmebody p, #portfolio p {
     font-size: .85em;
 }
-#aboutme .timeframe .time-title {
+
+#aboutmeinfo #intro {
+
+}
+
+#aboutmeinfo .timeframe .time-title {
     text-align: right;
     /*font-family: Consolas, Courier, monospace;*/
     /*border-right: 3px solid #45ADA8;*/
@@ -348,12 +337,18 @@ img.leftimg{float:left;padding-right:20px;}
     /*margin-top: 2%;*/
 }
 
-#aboutme .timeframe .time-icon  {
+#aboutmeinfo .timeframe .time-icon  {
     float: left;
+    width: 100px;
 }
 
-#aboutme .timeframe .time-description {
-    /*margin-top: 2%;*/
+#aboutmeinfo .timeframe .time-description {
+    margin-top: 1%;
+}
+
+#timeline {
+    width: 75%;
+    margin: auto;
 }
 
 
@@ -482,15 +477,29 @@ p.ph5 {
     color: #bc8c89;
 }
 
+
+
 .bg-grey {
     background-color: #f9f9f9;
 }
 .bg-fade-red {
     background-color: #F6E3E3;
 }
+.bg-home {
+    background-image: url(../images/bg-green.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
 .bg-thailand {
     background-image: url(../images/bg-thailand.jpg);
     background-position: bottom;
+    background-repeat: no-repeat;
+}
+.bg-thailand-50 {
+    background: transparent url('../images/bg-thailand-50.jpg') bottom;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .bg-lines-yellow {
@@ -521,13 +530,28 @@ p.ph5 {
     background-position: right;
     background-repeat: no-repeat;
 }
+.bg-aboutme {
+    background-image: url(../images/aboutmelayover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-timeline-dot {
+    background-image: url(../images/timelinedot.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+}
 .bg-green {
     background-image: url(../images/bg-green.png);
-    background-position: left;
+    background-position: right;
     background-repeat: no-repeat;
 }
 .bg-jumbo-green {
-    background-color: #739a79;
+    background-color: #547980;
+}
+.bg-uke {
+    background-image: url(../images/bg-uke.jpg);
+    background-position: center;
+    background-size: cover;
 }
 /* ==========================================================================
    End Fonts & Backgrounds
@@ -546,6 +570,24 @@ p.ph5 {
         height: 58%;
     }
 
+    #sms-title h1 {
+        font-size: 2em;
+    }
+
+    #takeyourpick-title {
+        background-image: url(../assets/achievers/takeyourpick/opto-title-bg.png);
+        background-position: top;
+    }
+    #MAdashboard-title {
+        background-image: url(../assets/mobileaction/dashboard/opto-title-bg.png);
+        background-position: center;
+    }
+    #sms-title {
+        background-image: url(../assets/securemysocial/opto-title-bg3.png);
+        background-position: center;
+    }
+
+
 }
 @media (max-width: 991px) {
     #aboutme .timeframe .time-title {
@@ -562,4 +604,13 @@ p.ph5 {
 
 /* ==========================================================================
    End Media Queries
+   ========================================================================== */
+
+/* ==========================================================================
+   IG
+   ========================================================================== */
+
+
+/* ==========================================================================
+   END IG
    ========================================================================== */

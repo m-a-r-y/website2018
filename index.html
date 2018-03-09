@@ -15,6 +15,7 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
+    <link rel="stylesheet" href="css/keyframes.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/stylesheet.css" />
     <link rel="stylesheet" href="css/globalstyle.css" />
@@ -52,7 +53,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
                 <li><a href="assets/mary.le.resume.pdf" target="_blank">Resume</a></li>
             </ul>
         </nav><!--/.navbar-collapse -->
@@ -61,12 +62,14 @@
 </div>
 <!-- End of Navigation Bar -->
 
+<div class="bg-home">
+
 <!-- Jumbotron -->
 <section class="jumbotron" id="header" data-image-zoom="zoom">
-    <div class="container">
-        <div class="row mar-ver-sm">
-            <div class="col-md-8 col-md-offset-4 pad-top-md">
-                <h1 class="font-bold">hello there,</br> I am <span class="font-blue-grey">Mary Le</span></h1>
+    <div class="container pad-ver-md">
+        <div class="row mar-ver-lg">
+            <div class=" pad-top-md font-grey-dark">
+                <h1 class="font-bold-none">hi there, I'm <span class="">Mary Le</span></h1>
                 <p class="mar-top-md ">Product Designer</p>
             </div>
         </div>
@@ -77,7 +80,7 @@
 <!-- Portfolio Section -->
 <!--<section id="portfolio" class="cbp-so-section cbp-so-init">-->
     <!--<div class="container cbp-so-side cbp-so-side-top">-->
-        <section id="portfolio" class="cbp-so-section cbp-so-init bg-green">
+        <section id="portfolio" class="cbp-so-section cbp-so-init ">
             <div class="container ">
 
         <!--<h2 class="pad-btm-lg">Case Studies</h2>-->
@@ -90,7 +93,7 @@
                         </a>
                     </div>
                     <div class="col-sm-8 portfolio-desc-r">
-                        <h3 class="">Achievers | <span class="font-bold-none">product design for a survey application</span></h3>
+                        <h3 class="">Achievers <span class="font-bold-none font-blue-grey">|</span> <span class="font-bold-none">product design for a survey application</span></h3>
                         <p class="portfolio-item-description pad-top-sm">"Take Your Pick" is a mobile and tablet survey application for Achiever's marketing team to use at events to gather attendees' information.
                             The product design process for this case goes through the 5 steps of design thinking: empathy, define, ideate, prototype, and test.
                         </p>
@@ -110,7 +113,7 @@
                         </a>
                     </div>
                     <div class="col-sm-8 portfolio-desc-r">
-                        <h3 class="">Mobile Action | <span class="font-bold-none">product design for a dashboard</span></h3>
+                        <h3 class="">Mobile Action <span class="font-bold-none font-blue-grey">|</span> <span class="font-bold-none">product design for a dashboard</span></h3>
                         <p class="portfolio-item-description pad-top-sm">Mobile Action's Dashboard allows users to see an app's ranking and visibility in the Apple App Store and the Google Play Store.
                             The product design process for this project uses the "Double Diamond" design approach.
                         </p>
@@ -130,9 +133,9 @@
                         </a>
                     </div>
                     <div class="col-sm-8 portfolio-desc-r">
-                        <h3 class="">SecureMySocial | <span class="font-bold-none">website redesign + CMS integration</span></h3>
-                        <p class="portfolio-item-description pad-top-sm">SecureMySocial provides users with insights on their web content postings and informs them if their posts are problematic to ensure a cleaner digital footprint on the web.
-                            The project for this case entails a website redesign and integrated a blogging CMS for the site that matches the theme's overall look and feel.
+                        <h3 class="">SecureMySocial <span class="font-bold-none font-blue-grey">|</span> <span class="font-bold-none">website redesign + CMS integration</span></h3>
+                        <p class="portfolio-item-description pad-top-sm">SecureMySocial provide users with insights on their web postings and inform them if the posts are problematic to ensure a cleaner digital footprint.
+                            The project for this case entails a website redesign and a CMS integration for a blog that matches the site's overall theme.
                         </p>
                         <a href="sms.html" class="mar-ver-md">
                             <button type="button" class="btn btn-view">View Case</button>
@@ -239,76 +242,114 @@
 </section>
 <!-- End of Portfolio Section -->
 
-<section class="section-break bg-jumbo-green pad-ver-sm">
-    <div class="container bg-jumbo-green pad-ver-sm">
-        <h1 class="">ABOUT ME</h1>
-    </div>
-</section>
+</div>
 
-<!-- ABout Me Section -->
-<section id="aboutme" class="cbp-so-section cbp-so-init font-book">
-    <div class="container cbp-so-side cbp-so-side-top">
 
-        <div id="intro" class="text-center clearfix">
-            <!--<h2>About Me</h2>-->
-            <div class="main-photo pad-btm-md" id="header-photo">
-                <figure class="round-outline"><img class="round-photo" src="assets/mary_header.jpg" alt="Mary's picture"></figure>
-            </div>
-            <h2 class="mar-top-md">My name is Mary Le</h2>
-            <!--<p class="col-md-8 col-md-offset-2 pad-ver-sm clearfix">I am currently pursuing a Master’s degree at Cornell University in Information Science with a focus in <span style="">Human Computer Interaction & UI Design.</span>-->
-            <!--</p>-->
-            <!--<p class="col-md-8 col-md-offset-2 pad-ver-sm clearfix">And I like smart human-centered product designs.-->
-            <!--</p>-->
-        </div>
 
-        <div id="timeline clearfix" class="mar-ver-lg font-grey-dark">
-            <div class="timeframe mar-ver-md clearfix">
-                <p class="col-md-3  time-title">UC Irvine |
-                    2011
-                </p>
-                <img class="time-icon col-md-1 col-xs-hidden " src="images/icons/graduation.png" alt="graduation icon">
-                <p class="col-md-8 time-description">Graduated with a Bachelor of Arts in International Studies and Sociology.
-                    Needless to say, I like to learn and understand people and why they do the things that they do.
-                </p>
-            </div>
-            <div class="timeframe mar-ver-md clearfix">
-                <p class="col-md-3  time-title">Exploring Careers |
-                    2012 - 2014
-                </p>
-                <img class="time-icon col-md-1 col-xs-hidden " src="images/icons/map.png" alt="map icon">
-                <p class="col-md-8 time-description">Worked in hospital administration and human resources where I interacted mostly with non-techy people and realized how poor designs affect and hinder efficient workflow.
-                </p>
-            </div>
-            <div class="timeframe mar-ver-md clearfix">
-                <p class="col-md-3 time-title">Web Development |
-                    2014 - 2017
-                </p>
-                <img class="time-icon col-md-1 col-xs-hidden " src="images/icons/dev.png" alt="dev icon">
-                <p class="col-md-8 time-description">Coded as a front-end developer in Silicon Valley in CA. During this time, I learned the technical skill sets to execute designs to take it to production.
-                </p>
-            </div>
-            <div class="timeframe mar-ver-md clearfix">
-                <p class="col-md-3 time-title">Design Work |
-                    2016 - Present
-                </p>
-                <img class="time-icon col-md-1 col-xs-hidden " src="images/icons/paint.png" alt="paint icon">
-                <p class="col-md-8 time-description">Flexed design skills in web, product, and visual design.
-                    During this sprint, I am connecting my interests and past experiences and emphasizing on human-centered designs first.
-                </p>
-            </div>
-            <div class="timeframe mar-ver-md clearfix">
-                <p class="col-md-3  time-title">Cornell University |
-                    2017 - Present
-                </p>
-                <img class="time-icon col-md-1 col-xs-hidden " src="images/icons/cornell.png" alt="cornell icon">
-                <p class="col-md-8 time-description">Made it to a lovely place in Ithaca, NY to get a Masters in Information Science with a focus on <span class="font-bold">Human Computer Interaction & UI Design.</span>
-                </p>
-            </div>
-        </div>
+<!-- About Me Section -->
+<!--<section id="aboutme" class="cbp-so-section cbp-so-init font-book ">-->
 
-    </div>
-</section>
+    <!--<section class="section-break bg-jumbo-green pad-ver-sm">-->
+        <!--<div class="container pad-ver-sm ">-->
+            <!--<h1 class="">ABOUT ME</h1>-->
+        <!--</div>-->
+    <!--</section>-->
+
+    <!--<div class="bg-aboutme pad-ver-lg">-->
+        <!--<div class="container cbp-so-side cbp-so-side-top">-->
+            <!--<div id="intro" class="text-center clearfix">-->
+                <!--&lt;!&ndash;<h2>About Me</h2>&ndash;&gt;-->
+                <!--<div class="main-photo pad-btm-md" id="header-photo">-->
+                    <!--<figure class="round-outline"><img class="round-photo" src="assets/mary_header.jpg" alt="Mary's picture"></figure>-->
+                <!--</div>-->
+                <!--<h2 class="pad-top-md">How I got into human-centered design</h2>-->
+                <!--&lt;!&ndash;<p class="col-md-8 col-md-offset-2 pad-ver-sm clearfix">I am currently pursuing a Master’s degree at Cornell University in Information Science with a focus in <span style="">Human Computer Interaction & UI Design.</span>&ndash;&gt;-->
+                <!--&lt;!&ndash;</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;<p class="col-md-8 col-md-offset-2 pad-ver-sm clearfix">And I like smart human-centered product designs.&ndash;&gt;-->
+                <!--&lt;!&ndash;</p>&ndash;&gt;-->
+            <!--</div>-->
+
+            <!--<div id="timeline clearfix" class="mar-ver-lg font-grey-dark">-->
+                <!--<div class="timeframe mar-ver-md clearfix">-->
+                    <!--<p class="col-md-3  time-title">UC Irvine |-->
+                        <!--2011-->
+                    <!--</p>-->
+                    <!--<img class="time-icon col-md-1 col-xs-hidden " src="images/icons/graduation.png" alt="graduation icon">-->
+                    <!--<p class="col-md-8 time-description">Graduated with a Bachelor of Arts in International Studies and Sociology.-->
+                        <!--I enjoy learning and understanding why people do the things that they do.-->
+                    <!--</p>-->
+                <!--</div>-->
+                <!--<div class="timeframe mar-ver-md clearfix">-->
+                    <!--<p class="col-md-3  time-title">Exploring Careers |-->
+                        <!--2012 - 2014-->
+                    <!--</p>-->
+                    <!--<img class="time-icon col-md-1 col-xs-hidden " src="images/icons/map.png" alt="map icon">-->
+                    <!--<p class="col-md-8 time-description">Worked in hospital administration and human resources where I interacted mostly with "non-techy" people and realized how poor designs affect and hinder efficient workflow.-->
+                    <!--</p>-->
+                <!--</div>-->
+                <!--<div class="timeframe mar-ver-md clearfix">-->
+                    <!--<p class="col-md-3 time-title">Web Development |-->
+                        <!--2014 - 2017-->
+                    <!--</p>-->
+                    <!--<img class="time-icon col-md-1 col-xs-hidden " src="images/icons/dev.png" alt="dev icon">-->
+                    <!--<p class="col-md-8 time-description">Coded as a front-end developer in Silicon Valley in CA. During this time, I learned the technical skill sets to execute designs to take it to production.-->
+                    <!--</p>-->
+                <!--</div>-->
+                <!--<div class="timeframe mar-ver-md clearfix">-->
+                    <!--<p class="col-md-3 time-title">Design Work |-->
+                        <!--2016 - Present-->
+                    <!--</p>-->
+                    <!--<img class="time-icon col-md-1 col-xs-hidden " src="images/icons/paint.png" alt="paint icon">-->
+                    <!--<p class="col-md-8 time-description">Flexed design skills in web, product, and visual design.-->
+                        <!--During this sprint, I am connecting my interests and past experiences and emphasized on human-centered designs first.-->
+                    <!--</p>-->
+                <!--</div>-->
+                <!--<div class="timeframe mar-ver-md clearfix">-->
+                    <!--<p class="col-md-3  time-title">Cornell University |-->
+                        <!--2017 - Present-->
+                    <!--</p>-->
+                    <!--<img class="time-icon col-md-1 col-xs-hidden " src="images/icons/cornell.png" alt="cornell icon">-->
+                    <!--<p class="col-md-8 time-description">Made it to a lovely place in Ithaca, NY to get a Masters in Information Science with a focus on <span class="font-bold">Human Computer Interaction & UI Design.</span>-->
+                    <!--</p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
 <!-- End of About Me Section -->
+
+<!--<section class="section-break pad-ver-md bg-thailand">-->
+    <!--<div class="container pad-ver-sm">-->
+        <!--<h1 class="">Hobbies</h1>-->
+    <!--</div>-->
+<!--</section>-->
+
+<!-- IG Section -->
+<!--<section id="IG" class="section-break pad-ver-md bg-green">-->
+    <!--<div class="container pad-ver-sm">-->
+
+        <!--<h2 class="mar-btm-lg">Exploring the world</h2>-->
+
+        <!--<div class="col-md-3 mar-btm-md">-->
+            <!--<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BWegcpAgW3w/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BWegcpAgW3w/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Mary (@gypsybellz)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-07-13T06:27:40+00:00">Jul 12, 2017 at 11:27pm PDT</time></p></div></blockquote>-->
+            <!--<h4 class=" font-bold-none">Korea</h4>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 mar-btm-md">-->
+            <!--<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/8nhf7ltdC5/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/8nhf7ltdC5/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Mary (@gypsybellz)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-10-09T12:53:46+00:00">Oct 9, 2015 at 5:53am PDT</time></p></div></blockquote>-->
+            <!--<h4 class=" font-bold-none">Japan</h4>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 mar-btm-md">-->
+            <!--<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/1eRYbhtdIF/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/1eRYbhtdIF/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Mary (@gypsybellz)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-04-14T23:00:01+00:00">Apr 14, 2015 at 4:00pm PDT</time></p></div></blockquote>-->
+            <!--<h4 class=" font-bold-none">Dominican Republic</h4>-->
+        <!--</div>-->
+        <!--<div class="col-md-3 mar-btm-md">-->
+            <!--<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/y85jzzNdA2/" data-instgrm-version="8" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/y85jzzNdA2/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Mary (@gypsybellz)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-02-11T06:54:07+00:00">Feb 10, 2015 at 10:54pm PST</time></p></div></blockquote>-->
+            <!--<h4 class=" font-bold-none">France</h4>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
+<!-- IG Section -->
+
 
 <!-- Footer -->
 <div class="footer">
@@ -338,6 +379,7 @@
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 
+<script async defer src="//www.instagram.com/embed.js"></script>
 
 </body>
 </html>

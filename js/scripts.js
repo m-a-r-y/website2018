@@ -17,6 +17,8 @@ jQuery(document).ready(function() {
 
 	// Animate the header components
 	$(window).load(function () {
+		$('#aboutmeinfo').addClass('slide-up-fade-in');
+
 		//jQuery('#header-photo').delay( 100 ).animate({opacity: '1', 'margin-right' : '100px'}, 1000, 'easeInOutCubic', function() {
 			jQuery('#header h1').animate({opacity: '1', 'padding-top': '0'}, 600, 'easeInOutCubic', function() {
 				jQuery('#header p').animate({opacity: '1'}, 100, 'easeInOutCubic', function() {
