@@ -132,6 +132,31 @@ li {
     background-color: #ffffff;
     border: 2px solid #5F9A73;
 }
+
+/*buttons*/
+.btn-null {
+    padding: 12px 24px;
+    color: #627d85;
+    background-color: #ffffff;
+    border: 2px solid #627d85;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: initial;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border-radius: 4px;
+}
+
 #portfolio .btn-view:hover {
     /*margin: 0 10px; original*/
     padding: 12px 24px;
