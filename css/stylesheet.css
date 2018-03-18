@@ -136,8 +136,8 @@ li {
 /*buttons*/
 .btn-null {
     padding: 12px 24px;
-    color: #627d85;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #627d85;
     border: 2px solid #627d85;
     display: inline-block;
     margin-bottom: 0;
@@ -337,24 +337,34 @@ img.leftimg{float:left;padding-right:20px;}
     padding-top: 65px;
 }
 
+#aboutmebody h1,
+#aboutmebody h2,
+#aboutmebody h3,
+#aboutmebody h4,
+#aboutmebody h5,
+#aboutmebody h6,
+#aboutmebody p {
+    color: #515151;
+    font-weight: lighter;
+    line-height: 1.75em;
+}
+
 #aboutmeheader {
+    background-color: #232323;
+}
+#aboutmeheader #headerleft {
+    margin-top: 15%;
 }
 #aboutmeinfo{
     opacity: 0;
 }
-#aboutmebody h2 {
-    color: #5F9A73;
-}
+
 
 #aboutmebody p, #portfolio p {
     font-size: .85em;
 }
 
-#aboutmeinfo #intro {
-
-}
-
-#aboutmeinfo .timeframe .time-title {
+#aboutmebody .timeframe .time-title {
     text-align: right;
     /*font-family: Consolas, Courier, monospace;*/
     /*border-right: 3px solid #45ADA8;*/
@@ -362,19 +372,37 @@ img.leftimg{float:left;padding-right:20px;}
     /*margin-top: 2%;*/
 }
 
-#aboutmeinfo .timeframe .time-icon  {
+#aboutmebody .timeframe .time-icon  {
     float: left;
     width: 100px;
 }
 
-#aboutmeinfo .timeframe .time-description {
+#aboutmebody .timeframe .time-description {
     margin-top: 1%;
+}
+
+#aboutmepage .highlight {
+    border: 2px solid #efeeee;
+    border-radius: 1%;
 }
 
 #timeline {
     width: 75%;
     margin: auto;
 }
+
+#aboutmebody #letsconnect{
+    /*color: #94bf99;*/
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-color: #739a79;
+}
+
+#aboutmepic img {
+    width: 100%;
+}
+
 
 
 
@@ -489,6 +517,9 @@ p.ph5 {
 .font-blue-grey {
     color: #547980;
 }
+.font-green {
+    color: #5F9A73;
+}
 .font-DD-blue {
     color: #8dafc3;
 }
@@ -503,9 +534,14 @@ p.ph5 {
 }
 
 
-
+.bg-white {
+    background-color: #ffffff;
+}
 .bg-grey {
     background-color: #f9f9f9;
+}
+.bg-grey-dark {
+    background-color: #232323;
 }
 .bg-fade-red {
     background-color: #F6E3E3;
@@ -619,6 +655,9 @@ p.ph5 {
         text-align: left;
         border-left: 3px solid #45ADA8;
         border-right: none;
+    }
+    #timeline {
+        width: 100%;
     }
 }
 @media (min-width: 1200px) {
