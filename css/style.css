@@ -16,7 +16,10 @@ Author URI:         http://creativemarket.com/stefusilviu
    General Styles
    ========================================================================== */
 body {
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Ubuntu', sans-serif;
+  /*font-weight: 100;*/
+
   font-size: 18px;
   line-height: 1.5em;
   height: 100%;
@@ -682,7 +685,7 @@ a:hover {
    Portfolio Section
    ========================================================================== */
 #portfolio {
-  font-family: "Book Antiqua", sans-serif;
+  /*font-family: "Book Antiqua", sans-serif;*/
   text-align: center;
   /*padding: 100px 0; original*/
   padding-top: 100px;
@@ -703,8 +706,13 @@ a:hover {
 }
 #portfolio h3 {
   font-size: 1.2em;
-  font-weight: bold;
-  font-family: "Book Antiqua", sans-serif;
+  font-weight: 400;
+  /*font-family: "Book Antiqua", sans-serif;*/
+}
+#portfolio h4 {
+  font-weight: 100;
+  line-height: 27px;
+  font-size: .9em;
 }
 
 .border-bottom {

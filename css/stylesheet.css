@@ -391,10 +391,10 @@ img.leftimg{float:left;padding-right:20px;}
     margin: auto;
 }
 
-#aboutmebody #letsconnect{
-    /*color: #94bf99;*/
-    font-weight: bold;
-    font-size: 24px;
+#aboutmebody a:hover{
+    color: #5F9A73;
+    /*font-weight: bold;*/
+    /*font-size: 24px;*/
     text-decoration: underline;
     text-decoration-color: #739a79;
 }
@@ -434,7 +434,7 @@ img.leftimg{float:left;padding-right:20px;}
 
 
 #showcase h5 {
-    margin-top: 7px;
+    /*margin-top: 7px;*/
 }
 
 .portfolio-section-title {
@@ -452,7 +452,7 @@ img.leftimg{float:left;padding-right:20px;}
     font-size: 2.5em;
 }
 .portfolio-section h3 {
-    color: #fff;
+    /*color: #fff;*/
     font-size: 1.25em;
     font-weight: 100;
 }
