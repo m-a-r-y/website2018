@@ -127,6 +127,7 @@ li {
 
 #portfolio .btn-view {
     /*margin: 0 10px; original*/
+    font-family: "Open Sans", sans-serif;
     padding: 12px 24px;
     color: #5F9A73;
     background-color: #ffffff;
