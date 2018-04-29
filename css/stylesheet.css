@@ -136,6 +136,7 @@ li {
 
 /*buttons*/
 .btn-null {
+    font-family: "Open Sans", sans-serif;
     padding: 12px 24px;
     color: #ffffff;
     background-color: #627d85;
