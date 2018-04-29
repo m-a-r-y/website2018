@@ -225,6 +225,7 @@ a:hover {
   margin-left: 5px;
 }
 .navbar .navbar-nav li a {
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
   display: block;
