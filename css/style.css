@@ -16,8 +16,7 @@ Author URI:         http://creativemarket.com/stefusilviu
    General Styles
    ========================================================================== */
 body {
-  /*font-family: 'Open Sans', sans-serif;*/
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Merriweather', serif;
   /*font-weight: 100;*/
 
   font-size: 18px;
@@ -37,8 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Ubuntu', sans-serif;
-  /*font-family: 'Helvetica', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
 }
 h1 {
   font-size: 2.888888888888889em;
@@ -2306,12 +2304,12 @@ opacity: 0.0;
 .footer {
   background-color: #253538;
   text-align: center;
-}
-.footer p, .footer a {
   color: #ffffff;
   line-height: 1.666666666666667;
-  margin: 25px 0;
-  font-weight: 100;
+  padding: 15px 0;
+}
+.footer h4 {
+  font-weight: lighter;
 }
 .scrolltotop {
   position: fixed;

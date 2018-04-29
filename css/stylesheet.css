@@ -462,7 +462,7 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 .portfolio-section .quote p {
-    font-family: 'Book Antiqua', serif;
+    font-family: 'Merriweather', serif;
     font-size: 1.5em;
     line-height: 1.5em;
     color: #717171;
@@ -489,7 +489,7 @@ img.leftimg{float:left;padding-right:20px;}
    ========================================================================== */
 
 .font-book {
-    font-family: 'Book Antiqua', serif;
+    font-family: 'Merriweather', serif;
 }
 
 p.h3 {
