@@ -255,6 +255,15 @@
     font-weight: normal;
 }
 
+.underline_link {
+    color: #515151;
+}
+.underline_link:hover {
+    color: #515151;
+    text-decoration: underline;
+    text-decoration-color: #5F9A73;
+}
+
 /*POSITION STYLE */
 .position-fixed {
     position: fixed;

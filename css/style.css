@@ -2320,9 +2320,11 @@ opacity: 0.0;
   color: #ffffff;
   line-height: 1.666666666666667;
   padding: 15px 0;
+  font-family: "Open Sans", sans-serif;
 }
 .footer h4 {
   font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
 }
 .scrolltotop {
   position: fixed;
