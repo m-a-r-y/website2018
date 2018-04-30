@@ -445,14 +445,21 @@ img.leftimg{float:left;padding-right:20px;}
     text-align: center;
 }
 
+.portfolio-section-title p {
+    font-weight: 100;
+}
+
 .portfolio-section h1 {
     color: #fff;
-    font-size: 3em;
+    font-size: 2.75em;
 }
 .portfolio-section h3 {
     /*color: #fff;*/
     font-size: 1.25em;
     font-weight: 100;
+}
+.portfolio-section .h5 {
+    line-height: 27px;
 }
 
 /*.portfolio-section p {*/
