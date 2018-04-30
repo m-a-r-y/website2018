@@ -69,7 +69,11 @@
 li {
     list-style-type: none;
 }
-
+a:focus,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
 
 /*.linkme {*/
     /*color: #579f6a;*/
@@ -355,6 +359,10 @@ img.leftimg{float:left;padding-right:20px;}
 #aboutmeheader {
     background-color: #232323;
 }
+#aboutmeheader h1{
+    font-size: 2.5em;
+}
+
 #aboutmeheader #headerleft {
     margin-top: 15%;
 }
@@ -389,13 +397,13 @@ img.leftimg{float:left;padding-right:20px;}
     margin: auto;
 }
 
-#aboutmebody a:hover{
-    color: #5F9A73;
-    /*font-weight: bold;*/
-    /*font-size: 24px;*/
-    text-decoration: underline;
-    text-decoration-color: #739a79;
-}
+/*#aboutmebody a:hover{*/
+    /*color: #5F9A73;*/
+    /*/!*font-weight: bold;*!/*/
+    /*/!*font-size: 24px;*!/*/
+    /*text-decoration: underline;*/
+    /*text-decoration-color: #739a79;*/
+/*}*/
 
 #aboutmepic img {
     width: 100%;

@@ -66,9 +66,7 @@ jQuery(document).ready(function() {
 	// Nice scroll to DIVs
 	$('.navbar-nav li a').click(function(evt){
 		var place = $(this).attr('href');
-		$('html, body').animate({
-			scrollTop: $(place).offset().top
-			}, 1200, 'easeInOutCubic');
+		$('html, body').animate({scrollTop: $(place).offset().top}, 1200, 'easeInOutCubic');
 		pde(evt);
 	});
 
