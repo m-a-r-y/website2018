@@ -467,9 +467,9 @@ img.leftimg{float:left;padding-right:20px;}
     font-weight: 100;
 }
 
-.portfolio-section p {
-    font-size: 1em;
-}
+/*.portfolio-section p {*/
+    /*font-size: 1em;*/
+/*}*/
 
 .portfolio-section .quote p {
     font-family: 'Merriweather', serif;

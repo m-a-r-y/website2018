@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,800,300);
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900);
 /*
 Theme Name:         Planus
 Description:        Planus is a clean and minimal html one page to display your work.
@@ -16,8 +18,8 @@ Author URI:         http://creativemarket.com/stefusilviu
    General Styles
    ========================================================================== */
 body {
-  font-family: 'Merriweather', serif;
-  /*font-weight: 100;*/
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
 
   font-size: 18px;
   line-height: 1.5em;
@@ -36,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 .h1,
 .h2,
@@ -44,7 +46,7 @@ h6 {
 .h4,
 .h5,
 .h6 {
-  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   line-height: 1.1;
 }
@@ -335,7 +337,7 @@ a:hover {
 }
 .minified {
   top: 0;
-  opacity: 0.95;
+  /*opacity: 0.95;*/
   padding: 15px 0;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
@@ -357,7 +359,7 @@ a:hover {
   font-size: 1em;
   height: auto;
   overflow: hidden;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   /*-webkit-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);*/
   /*-moz-box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);*/
   /*box-shadow: inset 0 0 4px 0 rgba(0, 0, 0, 0.1);*/
