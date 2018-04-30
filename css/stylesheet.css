@@ -362,11 +362,6 @@ img.leftimg{float:left;padding-right:20px;}
     opacity: 0;
 }
 
-
-#aboutmebody p {
-    font-size: .85em;
-}
-
 #aboutmebody .timeframe .time-title {
     text-align: right;
     /*font-family: Consolas, Courier, monospace;*/
