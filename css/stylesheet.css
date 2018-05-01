@@ -553,6 +553,9 @@ img.leftimg{float:left;padding-right:20px;}
 .bg-grey {
     background-color: #f9f9f9;
 }
+.bg-grey-light {
+    background-color: #f9f9f9;
+}
 .bg-grey-dark {
     background-color: #232323;
 }
@@ -588,7 +591,6 @@ img.leftimg{float:left;padding-right:20px;}
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .bg-lines-red {
     background-image: url(../images/bg-red-lines.png);
     background-position: left;

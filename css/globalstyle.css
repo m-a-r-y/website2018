@@ -255,18 +255,6 @@
     font-weight: normal;
 }
 
-/*.underline_link {*/
-    /*color: #515151;*/
-    /*position: relative;*/
-    /*text-decoration: none;*/
-/*}*/
-/*.underline_link:hover {*/
-    /*color: #515151;*/
-    /*transition: .5s color ease;*/
-    /*text-decoration: underline;*/
-    /*text-decoration-color: #5F9A73;*/
-/*}*/
-
 
 .custom_underline {
     position: relative;
@@ -294,8 +282,6 @@
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
-
-
 
 
 /*POSITION STYLE */
