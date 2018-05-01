@@ -75,61 +75,6 @@ a:hover {
     color: inherit;
 }
 
-/*.linkme {*/
-    /*color: #579f6a;*/
-/*}*/
-/*.linkme:hover {*/
-    /*color: #45ADA8;*/
-
-/*}*/
-
-/*#about h1 {*/
-    /*color: #45ADA8;*/
-/*}*/
-
-/*.featureimg {*/
-    /*margin: 20px 0px;*/
-/*}*/
-
-/*.mar-btm-lg {*/
-    /*margin-bottom: 40px;*/
-/*}*/
-
-/*.img-sm {*/
-    /*width: 25%;*/
-/*}*/
-/*.img-md {*/
-    /*width: 50%;*/
-/*}*/
-/*.img-lg {*/
-    /*width: 75%;*/
-/*}*/
-
-
-/*.li-space li {*/
-    /*border-bottom: 1px solid rgba(167, 227, 181, 0.5);*/
-    /*padding-bottom: 5px;*/
-/*}*/
-
-/* ACHIEVERS */
-/* TAKE YOUR PICK */
-
-/*.takeyourpick>.noteCard>.final>img {*/
-    /*display: inline;*/
-/*}*/
-
-/* MOBILE ACTION */
-/* DASHBOARD */
-
-/*.img-center>img {*/
-    /*margin-left: 25%;*/
-/*}*/
-
-
-.hideme {
-    display: none;
-}
-
 #portfolio .btn-view {
     /*margin: 0 10px; original*/
     font-family: "Open Sans", sans-serif;
@@ -420,10 +365,6 @@ img.leftimg{float:left;padding-right:20px;}
 /* ==========================================================================
    Portfolio Page
    ========================================================================== */
-#takeyourpick-title {
-    background-image: url(../assets/achievers/takeyourpick/opto-title-bg.png);
-    background-position: left;
-}
 
 #MAdashboard-title {
     background-image: url(../assets/mobileaction/dashboard/opto-title-bg.png);
@@ -444,13 +385,13 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 .portfolio-section-title {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-attachment: fixed;*/
 
-    width: auto;
-    height: auto;
-    text-align: center;
+    /*width: auto;*/
+    /*height: auto;*/
+    /*text-align: center;*/
 }
 
 .portfolio-section-title p {
@@ -650,10 +591,6 @@ img.leftimg{float:left;padding-right:20px;}
         font-size: 2em;
     }
 
-    #takeyourpick-title {
-        background-image: url(../assets/achievers/takeyourpick/opto-title-bg.png);
-        background-position: top;
-    }
     #MAdashboard-title {
         background-image: url(../assets/mobileaction/dashboard/opto-title-bg.png);
         background-position: center;

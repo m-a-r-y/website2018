@@ -248,6 +248,9 @@
 .font-bold-400 {
     font-weight: 400;
 }
+.font-bold-600 {
+    font-weight: 600;
+}
 .font-light {
     font-weight: lighter;
 }
@@ -255,6 +258,9 @@
     font-weight: normal;
 }
 
+.hideme {
+    display: none;
+}
 
 .custom_underline {
     position: relative;
