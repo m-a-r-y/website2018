@@ -262,6 +262,12 @@
     display: none;
 }
 
+.custom_underline_span {
+    text-decoration: underline;
+    text-decoration-color: #5F9A73;
+}
+
+
 .custom_underline {
     position: relative;
     color: #515151;
