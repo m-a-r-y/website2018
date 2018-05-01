@@ -385,8 +385,8 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 .portfolio-section-title {
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-size: cover;
     /*background-attachment: fixed;*/
 
     /*width: auto;*/
