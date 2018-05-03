@@ -2315,9 +2315,9 @@ opacity: 0.0;
    Footer Section
    ========================================================================== */
 .footer {
-  background-color: #253538;
+  /*background-color: #253538;*/
   text-align: center;
-  color: #ffffff;
+  color: #253538;
   line-height: 1.666666666666667;
   padding: 15px 0;
   font-family: "Open Sans", sans-serif;

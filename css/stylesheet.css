@@ -508,7 +508,7 @@ img.leftimg{float:left;padding-right:20px;}
     background-position: left;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-bottom: 100px;
+    /*padding-bottom: 100px;*/
 }
 .bg-thailand {
     background-image: url(../images/bg-thailand.jpg);
