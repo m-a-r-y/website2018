@@ -23,14 +23,18 @@
     <title>Mary Le - Take Your Pick</title>
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
     <link rel="stylesheet" href="css/keyframes.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/stylesheet.css" />
     <link rel="stylesheet" href="css/globalstyle.css" />
     <link rel="stylesheet" href="css/prettyPhoto.css" />
+    <link rel="stylesheet" href="css/spacing.css" />
 
     <script src="lightbox/js/jquery-1.11.0.min.js"></script>
     <script src="lightbox/js/lightbox.min.js"></script>
@@ -89,9 +93,9 @@
 
 
     <!-- Story Section -->
-    <section id="takeyourpick-story" class="clearfix">
+    <section id="takeyourpick-story" class="bg-grey-light clearfix">
         <div class="container pad-ver-md">
-            <div class="col-md-2 pad-top-lg">
+            <div class="col-md-2 mar-ver-lg">
                 <p class="h5 font-bold text-uppercase">Company</p>
                 <p class="h5">Achievers</p>
                 <p class="h5 font-bold mar-top-md text-uppercase">Responsibilities</p>
@@ -105,34 +109,34 @@
                 <p class="h5 col-xs-6 pad-none">Angular.js</p>
             </div>
 
-            <div class="col-md-9 col-md-offset-1 pad-ver-lg">
-                <p class="h3">About the project</p>
-                <p class="mar-ver-md">Every year, Achievers attends and participates in multiple trade show events and the marketing team would manually record attendees' information. This inefficient process not only took away valuable time to converse with potential clients, but it was also highly error-prone.
-                </p>
-                <p class="mar-ver-md"><span class="font-bold-600 font-grey-dark">Take Your Pick</span> was the solution.</p>
-                <p class="mar-ver-md">The app allows attendees to follow easy step-by-step instructions on entering their information and filling out a simple questionnaire at their convenience at any time.
-                </p>
-                <p class="mar-ver-md">The collected data then gets transferred to Achievers' CRM system for the sales and marketing team to access. The information is also used to strategically design marketing campaigns to boost traffic to the Achievers' booth at these events.
-                </p>
+            <div class="col-md-9 col-md-offset-1">
+                <div class="pad-ver-lg">
+                    <p class="h3">About the project</p>
+                    <p class="mar-ver-md">Every year, Achievers attends and participates in multiple trade show events and the marketing team would manually record attendees' information. This inefficient process not only took away valuable time to converse with potential clients, but it was also highly error-prone.
+                    </p>
+                    <p class="mar-ver-md"><span class="font-bold-600 font-grey-dark">Take Your Pick</span> was the solution.</p>
+                    <p class="mar-ver-md">The app allows attendees to follow easy step-by-step instructions on entering their information and filling out a simple questionnaire at their convenience at any time.
+                    </p>
+                    <p class="mar-ver-md">The collected data then gets transferred to Achievers' CRM system for the sales and marketing team to access. The information is also used to strategically design marketing campaigns to boost traffic to the Achievers' booth at these events.
+                    </p>
+                </div>
             </div>
-
         </div>
     </section>
 
     <!-- Process Section -->
-    <section id="takeyourpick-ideate" class="clearfix pad-ver-lg bg-grey-light">
+    <section id="takeyourpick-ideate" class="clearfix pad-top-lg ">
         <div class="container pad-ver-md">
 
             <div class="col-md-2 mar-btm-lg">
-                <p class="h5 mar-btm-sm font-bold">SUMMARY OF DESIGN & DEVELOPMENT PROCESS</p>
+                <p class="h5 mar-btm-sm font-bold">DESIGN & DEVELOPMENT PROCESS SUMMARY</p>
             </div>
 
             <div class="col-md-9 col-md-offset-1 ">
-                <p>In this phase, the brainstorming process included how the survey app should be built on a technical level as well as from a product design standpoint. Ideation had to also consider the frontend implementation since I was working in a team of two, myself and a senior backend developer.
-                    We had to not only look at ways to create the most functional design product but also making sure that it can be developed within our time constraints.
+                <p>The first step was <span class="font-bold-600">identifying the users</span> and <span class="font-bold-600">understanding the problems</span> that the mobile survey app is aiming to solve. With the problem definition in mind, effectively planning a timeline was critical next step in order to release the app on time.
                 </p>
                 <p class="mar-ver-md">
-                    The brainstorming process included how the survey should be built on a technical level as well as from a product design standpoint. The follow was the proposed processed for development given our short timeline:
+                    Since I was responsible for the front-end design and development, <span class="font-bold-600">creating dynamic, scalable, and reusable components</span> was important for <span class="font-bold-600">rapid prototyping</span> and <span class="font-bold-600">user testing</span>.
                 </p>
                 <div class="pad-top-sm">
                     <img src="assets/achievers/takeyourpick/devbox3.png" class="img-responsive">
@@ -143,60 +147,56 @@
     </section>
 
     <!-- Empathize Section -->
-    <section id="takeyourpick-empathize" class="clearfix pad-top-lg ">
+    <section id="takeyourpick-empathize" class="clearfix ">
         <div class="container pad-ver-md">
             <div class="col-md-2 mar-btm-lg">
                 <p class="h5 font-bold">USER RESEARCH</p>
                 <p class="h5">1:1 interviews</p>
+                <p class="h5">Problem definition</p>
                 <p class="h5">Affinity diagram</p>
                 <p class="h5">Storyboard</p>
-                <p class="h5">Personas</p>
             </div>
             <div class="col-md-9 col-md-offset-1 ">
-                <p class="h3">Gaining insights</p>
-                <p class="mar-ver-md">To uncover some insights into the issues of collecting physical survey data at trade show events, I talked to Achiever’s marketing department who were able to provide the following issues on (1) their personal experiences at trade show events
+                <!--<p class="h3">Gaining insights</p>-->
+                <p class="">To uncover some insights into the issues of collecting physical survey data at trade show events, I talked to Achiever’s marketing department who were able to provide the following issues on (1) their personal experiences at trade show events
                     and (2) relay some of the attendees’ feedback regarding their current process of collecting data and information through physical surveys.
                 </p>
-                <p class="mar-ver-md">The following affinity diagram organized the findings into similar groupings to help define the real issues for the people at these events.
-                </p>
-                <div class="pad-top-sm">
-                    <img src="assets/achievers/takeyourpick/affinity-diagram.png" class="img-responsive">
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Define Section -->
-    <section id="takeyourpick-define" class="clearfix ">
-        <div class="container pad-ver-md">
-
-            <div class="col-md-2 mar-btm-lg">
-                <p class="h5 font-bold">DEFINING USERS, NEEDS, AND PROBLEMS</p>
-            </div>
-
-            <div class="col-md-9 col-md-offset-1 ">
-                <div class="">
+                <div id="definition" class="mar-ver-md">
                     <p><span class="font-bold-600 font-grey-dark">Users:</span> Achievers’ marketing team and event attendees. </p>
                     <p><span class="font-bold-600 font-grey-dark">Issue:</span> Physical surveys are outdated and inefficient for collecting information at a fast-paced environment. </p>
                     <p><span class="font-bold-600 font-grey-dark">Need:</span> An automated data collecting survey that is fast and accurate. </p>
                     <p><span class="font-bold-600 font-grey-dark">Insights:</span> This will increase the conversation and networking time between Achievers’ marketing team and attendees. </p>
                 </div>
 
-
                 <div class="quote pad-ver-md mar-ver-lg font-DD-green">
                     <span class="col-xs-1 q">"
                     </span>
-                    <p class="col-xs-11">
+                    <p class="col-xs-11 ">
                         A web app survey that correctly and quickly capture attendees’ information allows Achievers staff and attendees to have more face-to-face interactions.
                     </p>
                 </div>
+
+            </div>
+
+            <div class="clearfix pad-ver-lg">
+                <div class="col-md-2 mar-btm-lg">
+                    <p class="h5 font-bold">AFFINITY DIAGRAM</p>
+                </div>
+                <div class="col-md-9 col-md-offset-1 ">
+                    <img src="assets/achievers/takeyourpick/affinity-diagram.png" class="img-responsive pad-btm-md">
+                </div>
+            </div>
+
+            <div class="col-md-2 mar-btm-lg">
+                <p class="h5 font-bold">STORYBOARD</p>
+                <p class="h5">The most optimal method for filling out a survey at a busy trade show event</p>
+            </div>
+            <div class="col-md-9 col-md-offset-1 ">
+                <img src="assets/achievers/takeyourpick/storyboard.png" class="img-responsive pad-btm-lg">
             </div>
 
         </div>
     </section>
-
-    <img src="assets/achievers/takeyourpick/storyboard.png" class="col-md-10 col-md-offset-1 img-responsive pad-ver-lg">
 
 
     <!-- Prototype Section -->
@@ -210,7 +210,7 @@
                 <p class="h5">Hi-fi prototype (HTML/CSS/JS)</p>
             </div>
             <div class="col-md-9 col-md-offset-1 mar-btm-lg">
-                <p>The first prototype was building out the front-end development with minimal elements required for user interactions with the survey app; this was to ensure the proper working functionalities.
+                <p>The first prototype was building out the front-end development with minimal elements required for user interactions with the survey app; this was to ensure proper working functionalities.
                 </p>
                 <p class="mar-top-lg"><span class="font-bold-600 font-grey-dark">Version 1:</span> the key factor here was the tap-n-go transition between the questions, there wasn’t any selection confirmation or the option of an undo.
                 </p>
@@ -240,50 +240,61 @@
     <section id="takeyourpick-test" class="clearfix pad-top-lg">
         <div class="container pad-ver-md">
 
-            <div class="col-md-2 mar-btm-lg">
-                <p class="h5 mar-btm-sm font-bold">USER TESTING</p>
+            <div class="clearfix">
+                <div class="col-md-2 mar-btm-lg">
+                    <p class="h5 mar-btm-sm font-bold">USER TESTING</p>
+                </div>
+                <div class="col-md-9 col-md-offset-1">
+                    <p>During the user testing phase, the survey app went through at least three cycles of testings: (1) the first official cycle of testing was done within the development team for functional testings,
+                        (2) the second user testing was conducted with the entire marketing team to test for alignment with their purpose of collecting data,
+                        and (3) the final user testing was conducted with the entire company during a standup daily meeting to test how attendees would understand the survey.</p>
+                </div>
             </div>
-            <div class="col-md-9 col-md-offset-1">
-                <p>During the user testing phase, the survey app went through at least three cycles of testings: (1) the first official cycle of testing was done within the development team for functional testings,
-                    (2) the second user testing was conducted with the entire marketing team to test for alignment with their purpose of collecting data,
-                    and (3) the final user testing was conducted with the entire company during a standup daily meeting to test how attendees would understand the survey.</p>
+
+            <div class="clearfix mar-ver-md">
+                <div class="col-md-2 mar-btm-lg">
+                    <p class="h5 mar-btm-sm font-bold">FINDINGS</p>
+                </div>
+                <div class="col-md-9 col-md-offset-1">
+                    <p class=""><span><img src="images/icons/dot-green.png" class=""></span>
+                        One of the main tests was to see how people would react about the lack of the back button option. The result was that the majority did not noticed it to be a problem.</p>
+                    <p class=""><span><img src="images/icons/dot-green.png" class=""></span>
+                        An overwhelming response was positive and the majority of the user testers found the survey to be very easy and efficient!</p>
+                    <p class=""><span><img src="images/icons/dot-red.png" class=""></span>
+                        Email addresses were not validated.</p>
+                    <p class=""><span><img src="images/icons/dot-red.png" class=""></span>
+                        There were issues with the network connections at times. People did not know if the app was loading/broken or if it was their connection error.</p>
+                </div>
             </div>
+
+            <div class="clearfix">
+                <div class="col-md-3">
+                    <p class="h5 mar-btm-sm font-bold">SOLUTIONS</p>
+                </div>
+                <div class="col-md-9">
+                    <p>We developed the app to be scalable and reusable for future trade shows and events under different circumstances.
+                        We also considered different scenarios and use cases to create screens that will capture each event for a good user experience.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- Findings Section -->
-    <section id="takeyourpick-findings" class="clearfix">
-        <div class="container pad-ver-md">
+    <!--<section id="takeyourpick-findings" class="clearfix pad-ver-md">-->
+        <!--<div class="container">-->
 
-            <div class="col-md-2 mar-btm-lg">
-                <p class="h5 mar-btm-sm font-bold">FINDINGS</p>
-            </div>
-            <div class="col-md-9 col-md-offset-1">
-                <p class=""><span><img src="images/icons/dot-green.png" class=""></span>
-                    One of the main tests was to see how people would react about the lack of the back button option. The result was that the majority did not noticed it to be a problem.</p>
-                <p class="pad-ver-sm"><span><img src="images/icons/dot-green.png" class=""></span>
-                    An overwhelming response was positive and the majority of the user testers found the survey to be very easy and efficient!</p>
-                <p class="pad-ver-sm"><span><img src="images/icons/dot-red.png" class=""></span>
-                    Email addresses were not validated.</p>
-                <p class=""><span><img src="images/icons/dot-red.png" class=""></span>
-                    There were issues with the network connections at times. People did not know if the app was loading/broken or if it was their connection error.</p>
-            </div>
-        </div>
-    </section>
+            <!-- -->
+        <!--</div>-->
+    <!--</section>-->
 
-    <!-- Challenge Section -->
-    <section id="takeyourpick-challenge" class="clearfix ">
-        <div class="container pad-ver-md">
-            <div class="col-md-3 mar-btm-lg clearfix">
-                <p class="h5 mar-btm-sm font-bold">ADDRESSING CHALLENGES</p>
-            </div>
-            <div class="col-md-9  ">
-                <p>We developed the app to be scalable and reusable for future trade shows and events under different circumstances.
-                    We also considered different scenarios and use cases to create screens that will capture each event for a good user experience.
-                </p>
-            </div>
-        </div>
-    </section>
+    <!--&lt;!&ndash; Challenge Section &ndash;&gt;-->
+    <!--<section id="takeyourpick-challenge" class="clearfix">-->
+        <!--<div class="container">-->
+            <!-- -->
+        <!--</div>-->
+    <!--</section>-->
 
     <img src="assets/achievers/takeyourpick/errorscreens.png" class="img-responsive pad-top-lg">
 
@@ -315,7 +326,7 @@
 <!-- Footer -->
 <div class="footer">
     <div class="container">
-        <p class="h5 font-light">Website © 2018 Mary Le</p>
+        <p class="h5 font-light mar-ver-sm">Website © 2018 Mary Le</p>
     </div>
 </div>
 
