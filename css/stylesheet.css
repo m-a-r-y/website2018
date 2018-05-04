@@ -78,22 +78,23 @@ a:hover {
 #portfolio .btn-view {
     /*margin: 0 10px; original*/
     font-family: "Open Sans", sans-serif;
-    padding: 12px 24px;
+    padding: 10px 20px;
     color: #5F9A73;
     background-color: #ffffff;
     border: 2px solid #5F9A73;
+    font-size: 12px;
 }
 
 /*buttons*/
 .btn-null {
     font-family: "Open Sans", sans-serif;
-    padding: 12px 24px;
+    padding: 10px 20px;
     color: #ffffff;
     background-color: #627d85;
     border: 2px solid #627d85;
     display: inline-block;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
@@ -111,7 +112,7 @@ a:hover {
 
 #portfolio .btn-view:hover {
     /*margin: 0 10px; original*/
-    padding: 12px 24px;
+    padding: 10px 20px;
     color: #ffffff;
     background-color: #5F9A73;
     border: 2px solid #5F9A73;
