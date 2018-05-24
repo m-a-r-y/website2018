@@ -37,13 +37,13 @@ jQuery(document).ready(function() {
 
 	// Minify the Nav Bar
 	$(document).scroll(function () {
-		var position = $(document).scrollTop();
-		var headerHeight = $('#header').outerHeight();
-		if (position >= headerHeight - 100){
-				$('.navbar').addClass('minified');
-		} else {
-				$('.navbar').removeClass('minified');
-		}
+		//var position = $(document).scrollTop();
+		//var headerHeight = $('#header').outerHeight();
+		//if (position >= headerHeight - 100){
+		//		$('.navbar').addClass('minified');
+		//} else {
+		//		$('.navbar').removeClass('minified');
+		//}
 
 
 		// Parallax effect on #Header
