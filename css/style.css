@@ -19,7 +19,7 @@ Author URI:         http://creativemarket.com/stefusilviu
    ========================================================================== */
 body {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
+  /*font-weight: 100;*/
 
   font-size: 15px;
   line-height: 1.5em;
@@ -210,7 +210,7 @@ a:hover {
    ========================================================================== */
 .navbar {
   height: auto;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   /*-webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);*/
   /*-moz-box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);*/
   /*box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);*/
