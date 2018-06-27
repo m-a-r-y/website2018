@@ -59,10 +59,6 @@ h1 img {
     transition: all 0.2s ease-out;
 }
 
-.navbar {
-    margin: 0px;
-}
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
@@ -91,6 +87,8 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 
+
+
 .section-break {
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,7 +108,7 @@ img.leftimg{float:left;padding-right:20px;}
    About Me
    ========================================================================== */
 #aboutme {
-    /*padding-top: 60px;*/
+    padding-top: 60px;
 }
 
 #aboutmebody {
@@ -171,11 +169,11 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 /*#aboutmebody a:hover{*/
-    /*color: #5F9A73;*/
-    /*/!*font-weight: bold;*!/*/
-    /*/!*font-size: 24px;*!/*/
-    /*text-decoration: underline;*/
-    /*text-decoration-color: #739a79;*/
+/*color: #5F9A73;*/
+/*/!*font-weight: bold;*!/*/
+/*/!*font-size: 24px;*!/*/
+/*text-decoration: underline;*/
+/*text-decoration-color: #739a79;*/
 /*}*/
 
 #aboutmepic img {
@@ -223,7 +221,7 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 /*.portfolio-section-title p {*/
-    /*font-weight: 100;*/
+/*font-weight: 100;*/
 /*}*/
 
 .portfolio-section h1 {
@@ -240,7 +238,7 @@ img.leftimg{float:left;padding-right:20px;}
 }
 
 /*.portfolio-section p {*/
-    /*font-size: 1em;*/
+/*font-size: 1em;*/
 /*}*/
 
 .portfolio-section .quote p {

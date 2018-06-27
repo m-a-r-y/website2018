@@ -52,7 +52,7 @@
 <body data-spy="scroll" data-target="#my-nav" id="cbp-so-scroller">
 
 <!-- Navigation Bar -->
-<div class="navbar navbar-fixed-top minified navbar-pages position-fixed">
+<div class="navbar ">
     <div class="container">
 
         <div class="navbar-header">
@@ -61,12 +61,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html"><img src="images/MLlogo.png" alt="Logo" onclick="window.location.href='index.html'"></a>
+            <!--<a class="navbar-brand" href="index.html"><img src="images/MLlogo.png" alt="Logo" onclick="window.location.href='index.html'"></a>-->
         </div>
 
         <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li><a href="index.html">Work</a></li>
+                <li class="active"><a href="index.html">Work</a></li>
                 <li><a href="aboutme.html">About</a></li>
                 <li><a href="assets/mary.le.resume.pdf" target="_blank">Resume</a></li>
             </ul>
@@ -80,13 +80,18 @@
 <div id="showcase" class="portfolio-section pageFade">
 
     <!-- Title Section -->
-    <section id="mareana-title" class="portfolio-section-title text-center">
+    <section id="mareana-title" class="portfolio-section-title font-white bg-mareana">
         <div class="container pad-ver-lg">
-            <h2 class="mar-btm-md font-grey-dark">Mareana: qSync</h2>
-            <p class="h4 mar-ver-sm font-grey-dark">Making on-boarding easier for new users</p>
-            <p class="h4 pad-btm-sm font-grey-dark">An interactive guide for HR professionals</p>
+            <div class="clearfix mar-ver-lg">
+                <img src="assets/mareana/home.png" class="col-md-5 col-md-offset-1 img-responsive">
+
+                <div class="col-md-5 col-md-offset-1 text-md-center pad-top-lg">
+                    <h2 class="mar-btm-md ">Mareana: qSync</h2>
+                    <p class="h4 mar-ver-sm ">Designing a popup tutorial for new users</p>
+                    <p class="h4  ">My design process for an interactive guide</p>
+                </div>
+            </div>
         </div>
-        <img src="assets/mareana/mareana-mac-half2.png" class="img-responsive img-center pad-top-md">
     </section>
 
 
@@ -94,7 +99,7 @@
     <section id="mareana-story" class="clearfix bg-grey-light pad-btm-md">
         <div class="container pad-ver-md">
 
-            <div class="mar-top-lg">
+            <div class="mar-top-lg text-md-center">
                 <div class="col-md-2 col-md-offset-2 ">
                     <p class="h5 font-bold text-uppercase mar-top-md">Company</p>
                     <p class="h5 mar-btm-sm">Mareana</p>
@@ -118,7 +123,7 @@
                 </div>
             </div>
 
-            <div class="clearfix col-md-9 col-md-offset-2">
+            <div class="clearfix col-md-8 col-md-offset-2">
                 <div class="pad-ver-lg">
                     <p class="h3">About the project</p>
                     <p class="mar-ver-md">Mareana is a big data company. Its core technology, qSuite, provides data mining services with qFind, qArt, and qSci, and qSync. qSync allows users to locate, extract, merge, and publish data from unstructured sources to analyze the best option for its purpose.
@@ -140,7 +145,7 @@
     <section id="mareana-empathize" class="clearfix pad-ver-lg mar-btm-md">
         <div class="container pad-ver-md">
 
-            <div class="clearfix col-md-9 col-md-offset-2">
+            <div class="clearfix col-md-8 col-md-offset-2">
                 <div class="">
                     <p class="h3 mar-ver-md">User research</p>
                     <p class="">
@@ -183,7 +188,7 @@
             <p class="clearfix h5 font-blue-grey text-center mar-top-lg">
                 Persona creation
             </p>
-            <div class="col-md-9 col-md-offset-2">
+            <div class="col-md-8 col-md-offset-2">
                 <img src="assets/mareana/persona.png" class="img-responsive">
 
                 <p class="clearfix h5 font-blue-grey text-center mar-top-lg">
@@ -197,7 +202,7 @@
 
 
 
-            <div class="clearfix col-md-9 col-md-offset-2">
+            <div class="clearfix col-md-8 col-md-offset-2">
                 <p class="h4 mar-top-lg">Understanding the problem objective</p>
                 <p class="mar-ver-md">
                     In the end, I had clearer insights into the users' daily workflow and recognizing how current technologies are not addressing their main needs. I defined the key elements and problem objective as the following:
@@ -247,7 +252,7 @@
     <section id="mareana-ideate" class="clearfix pad-ver-lg bg-grey-light mar-btm-md">
         <div class="container pad-ver-md">
 
-            <div class="clearfix col-md-9 col-md-offset-2">
+            <div class="clearfix col-md-8 col-md-offset-2">
                 <div class="">
                     <p class="h3 mar-ver-md">Ideation</p>
                     <p class="">
@@ -305,7 +310,7 @@
     <section id="mareana-prototype" class="clearfix pad-ver-lg ">
         <div class="container pad-btm-md">
 
-            <div class="col-md-9 col-md-offset-2 ">
+            <div class="col-md-8 col-md-offset-2 ">
                 <p class="h3 mar-btm-md">Rapid prototyping</p>
 
                 <div class="clearfix pad-btm-md">
@@ -340,12 +345,14 @@
             <p class="clearfix h5 font-blue-grey text-center mar-top-md">
                 1st iteration
             </p>
-            <img src="assets/mareana/iteration1.png" class="img-responsive img-center mar-btm-md">
+            <div class="col-md-8 col-md-offset-2">
+                <img src="assets/mareana/iteration1b.png" class="img-responsive img-center mar-btm-md">
+            </div>
         </div>
 
 
         <div class="container pad-btm-md">
-            <div class="clearfix col-md-9 col-md-offset-2 ">
+            <div class="clearfix col-md-8 col-md-offset-2 ">
                 <p class="mar-ver-md">
                     After I conducted a couple of user tests, the results indicated the following:
                 </p>
@@ -369,11 +376,13 @@
             <p class="clearfix h5 font-blue-grey text-center ">
                 2nd iteration
             </p>
-            <img src="assets/mareana/iteration2.png" class="img-responsive img-center mar-btm-md">
+            <div class="col-md-8 col-md-offset-2">
+                <img src="assets/mareana/iteration2b.png" class="img-responsive img-center mar-btm-md">
+            </div>
         </div>
 
         <div class="container pad-btm-md">
-            <div class="clearfix col-md-9 col-md-offset-2 ">
+            <div class="clearfix col-md-8 col-md-offset-2 ">
                 <p class="h4 mar-ver-md">Finalizing the prototype</p>
                 <p class="">
                     In addition to the popup, I also designed a sample layout of a table that displays information for all the applicants and how their information would be shown when their name is selected.
@@ -402,11 +411,40 @@
         <div class="container pad-ver-md">
 
             <div class="clearfix ">
-                <div class="col-md-9 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2">
                     <p class="h3 mar-ver-md">Future steps</p>
                     <p class="mar-btm-md">The popup model is created to be very flexible and its uses can be tailored to any industry to on-board new users.
                         The contextual interview questions were designed to also be easily personalized when interviewing professionals outside of the HR industry.
                         This will enable Mareana to tackle new industries in the future and effortlessly teach new users the power of qSync.
+                    </p>
+
+                    <p class="h4 mar-ver-md">Learning from this experience</p>
+
+                    <p class="mar-btm-md">This was my first product design project that I worked on independently from beginning to end.
+                        Some of the challenges included:
+                    </p>
+
+                    <p class=""><span><img src="images/icons/dot-grey.png" class=""></span>
+                        Arranging for contextual interviews.
+                    </p>
+                    <p class=""><span><img src="images/icons/dot-grey.png" class=""></span>
+                        Gathering design feedback and communicating with stakeholders.
+                    </p>
+                    <p class=""><span><img src="images/icons/dot-grey.png" class=""></span>
+                        Working around a short time frame.
+                    </p>
+
+                    <p class="mar-ver-md">After encountering these challenges, I learned that when working a large project with a limited tim frame,
+                        it is important to keep the following in mind:</p>
+
+                    <p class=""><span><img src="images/icons/dot-blue.png" class=""></span>
+                        Start early when arranging for meetings with other influencers on a project like stakeholders and interviewees.
+                    </p>
+                    <p class=""><span><img src="images/icons/dot-blue.png" class=""></span>
+                        Allow ample time during braintorming sessions for different ideas and inspirations to manifest.
+                    </p>
+                    <p class=""><span><img src="images/icons/dot-blue.png" class=""></span>
+                        Work with an agile mentality when iterating and prototyping to quickly learn from user testings.
                     </p>
 
                     <p class="h4 mar-ver-md">Handing off to developers</p>

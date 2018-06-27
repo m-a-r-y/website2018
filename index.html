@@ -51,7 +51,7 @@
 
 
 <!-- Navigation Bar -->
-<div class="navbar navbar-fixed-top">
+<div class="navbar ">
     <div class="container">
 
         <div class="navbar-header">
@@ -60,14 +60,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="images/MLlogo.png" alt="Logo"></a>
+            <!--<a class="navbar-brand" href="#"><img src="images/MLlogo.png" alt="Logo"></a>-->
         </div>
 
         <nav id="my-nav" class="navbar-collapse collapse" role="navigation">
             <ul class="nav navbar-nav">
-                <li><a href="#header">Work</a></li>
-                <li><a href="aboutme.html">About</a></li>
-                <li><a href="assets/mary.le.resume.pdf" target="_blank">Resume</a></li>
+                <li class="active"><a href="index.html" class="">Work</a></li>
+                <li><a href="aboutme.html" class="">About</a></li>
+                <li><a href="assets/mary.le.resume.pdf" target="_blank" class="">Resume</a></li>
             </ul>
         </nav><!--/.navbar-collapse -->
 
@@ -79,9 +79,10 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron " id="header" data-image-zoom="zoom">
-        <div class="container pad-ver-md">
-            <div class=" pad-top-md font-grey-dark">
-                <h1 class="font-bold-none">Mary Le</h1>
+        <div class="container pad-btm-md">
+            <div class="  font-grey-dark">
+                <!--<h1 class="font-bold-none">Mary Le</h1>-->
+                <h1 class="text-center name-logo"><img src="images/name.png" alt="Logo"></h1>
                 <p class="mar-ver-md ">A UX Designer in New York City</p>
             </div>
         </div>
@@ -90,92 +91,158 @@
 
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="bg-grey-light">
+    <section id="portfolio" class="">
         <div class="container ">
 
-            <!--<h2 class="pad-btm-lg">Case Studies</h2>-->
             <ul id="portfolio-grid" class="row portfolio-row">
-                <li class="portfolio-mix web-design border-bottom pad-btm-lg">
-                    <figure class="portfolio-item font-grey-dark">
-                        <div class="col-sm-5">
-                            <a href="mareana.html">
-                                <img class="img-responsive" src="assets/mareana/mareana-mac.png" alt="Mareana">
-                            </a>
-                        </div>
-                        <div class="col-sm-5 col-sm-offset-1  portfolio-desc-r">
-                            <h3 class="mar-none">Mareana </h3>
-                            <h4 class="pad-ver-sm">UX design project for on-boarding new users on qSync</h4>
-                            <p class="portfolio-item-description ">I collaborated with Cornell Johnson Business School and Mareana for my capstone project: using a design approach to build out a tool to service the HR industry.
-                            </p>
-                            <a href="mareana.html" class="custom_underline mar-ver-sm">
-                                <span class="font-green font-bold-400">View Case</span>
-                            </a>
-                        </div>
 
+                <li class="portfolio-mix col-md-6 mar-btm-mlg">
+                    <figure class="portfolio-item">
+                        <a href="mareana.html">
+                            <img class="img-responsive" src="assets/mareana/mareana-mac.png" alt="">
+                            <div class="caption-bg"></div>
+                            <h3>Mareana</h3>
+                            <p class="portfolio-item-description">Popup tutorial</p>
+                        </a>
                     </figure>
 
+                    <p>testing paragraph</p>
                 </li>
-
-                <li class="portfolio-mix web-design border-bottom pad-ver-lg">
-                    <figure class="portfolio-item font-grey-dark">
-                        <div class="col-sm-5">
-                            <a href="takeyourpick.html">
-                                <img class="img-responsive" src="assets/achievers/takeyourpick/TYP-whole.png" alt="Take Your Pick">
-                            </a>
-                        </div>
-                        <div class="col-sm-5 col-sm-offset-1  portfolio-desc-r">
-                            <h3 class="">Achievers</h3>
-                            <h4 class="pad-ver-sm">Product design for a survey application</h4>
-                            <p class="portfolio-item-description">"Take Your Pick" is a mobile and tablet survey application for Achiever's marketing team to use at events to gather attendees' information.
-                                The product design process for this case goes through the 5 steps of design thinking: empathy, define, ideate, prototype, and test.
-                            </p>
-                            <a href="takeyourpick.html" class="custom_underline mar-ver-sm">
-                                <span class="font-green font-bold-400">View Case</span>
-                            </a>
-                        </div>
-
-                    </figure>
-
-                </li>
-
-                <li class="portfolio-mix web-design border-bottom pad-ver-lg">
-                    <figure class="portfolio-item font-grey-dark">
-                        <div class="col-sm-5">
-                            <a href="MAdashboard.html">
-                                <img class="img-responsive" src="assets/mobileaction/dashboard/MADash-whole.png" alt="Mobile Action Dashboard">
-                            </a>
-                        </div>
-                        <div class="col-sm-5 col-sm-offset-1  portfolio-desc-r">
-                            <h3 class="">Mobile Action</h3>
-                            <h4 class="pad-ver-sm">Product redesign for a dashboard</h4>
-                            <p class="portfolio-item-description">Mobile Action's Dashboard allows users to see an app's ranking and visibility in the Apple App Store and the Google Play Store.
-                                The product design process for this project uses the "Double Diamond" design approach.
-                            </p>
-                            <a href="MAdashboard.html" class="custom_underline mar-ver-sm">
-                                <span class="font-green font-bold-400">View Case</span>
-                            </a>
-                        </div>
-
+                <li class="portfolio-mix col-md-6 mar-btm-mlg">
+                    <figure class="portfolio-item">
+                        <a href="takeyourpick.html">
+                            <img class="img-responsive" src="assets/achievers/takeyourpick/logo.png" alt="">
+                            <div class="caption-bg"></div>
+                            <h3>Take Your Pick</h3>
+                            <p class="portfolio-item-description">Mobile Survey Application</p>
+                        </a>
                     </figure>
                 </li>
-
-                <li class="portfolio-mix web-design pad-ver-lg">
-                    <figure class="portfolio-item font-grey-dark">
-                        <div class="col-sm-5">
-                            <img class="img-responsive img-center" src="images/spotify.png" alt="Spotify">
-                        </div>
-                        <div class="col-sm-5 col-sm-offset-1  portfolio-desc-r">
-                            <h3 class="">Spotify</h3>
-                            <h4 class="pad-ver-sm">Concept design for experiencing music simultaneously with friends</h4>
-                            <p class="portfolio-item-description">Spotify is a music experience. What Spotify users would like to see next is the capability to socially connect, collaborate, and experience music together at any given time — despite the distance.
-                                This case study explores possible designs concepts for sharing and experiencing music on another level.
-                            </p>
-                            <div type="" class="btn-null mar-ver-sm">Coming Soon</div>
-                        </div>
+                <li class="portfolio-mix col-md-6 mar-btm-mlg">
+                    <figure class="portfolio-item">
+                        <a href="MAdashboard.html">
+                            <img class="img-responsive" src="assets/mobileaction/logo_white.png" alt="">
+                            <div class="caption-bg"></div>
+                            <h3>Mobile Action Dashboard</h3>
+                            <p class="portfolio-item-description">Complete Product Redesign</p>
+                        </a>
+                    </figure>
+                </li>
+                <li class="portfolio-mix col-md-6 mar-btm-mlg">
+                    <figure class="portfolio-item">
+                        <a href="achievers.html">
+                            <img class="img-responsive" src="assets/achievers/corp/logo.png" alt="">
+                            <div class="caption-bg"></div>
+                            <h3>Acheivers</h3>
+                            <p class="portfolio-item-description">Website Redesign</p>
+                        </a>
                     </figure>
                 </li>
 
             </ul>
+
+            <!--<div class="col-md-6 mar-btm-lg">-->
+                <!--<a href="mareana.html">-->
+                    <!--<img class="img-responsive" src="assets/mareana/mareana-mac.png" alt="Mareana">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-md-6 mar-btm-lg">-->
+                <!--<a href="mareana.html">-->
+                    <!--<img class="img-responsive" src="assets/mareana/mareana-mac.png" alt="Mareana">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-md-6 mar-btm-lg">-->
+                <!--<a href="mareana.html">-->
+                    <!--<img class="img-responsive" src="assets/mareana/mareana-mac.png" alt="Mareana">-->
+                <!--</a>-->
+            <!--</div>-->
+            <!--<div class="col-md-6 mar-btm-lg">-->
+                <!--<a href="mareana.html">-->
+                    <!--<img class="img-responsive" src="assets/mareana/mareana-mac.png" alt="Mareana">-->
+                <!--</a>-->
+            <!--</div>-->
+
+
+            <!--<ul id="portfolio-grid" class="row portfolio-row">-->
+                <!--<li class="portfolio-mix web-design border-bottom pad-btm-lg">-->
+                    <!--<figure class="portfolio-item font-grey-dark">-->
+                        <!--<div class="col-sm-5">-->
+
+                        <!--</div>-->
+                        <!--<div class="col-sm-5 col-sm-offset-1  portfolio-desc-r">-->
+                            <!--<h3 class="mar-none">Mareana </h3>-->
+                            <!--<h4 class="pad-ver-sm">UX design project for on-boarding new users on qSync</h4>-->
+                            <!--<p class="portfolio-item-description ">I collaborated with Cornell's SC Johnson Business School and Mareana for my capstone project: using a design approach to build out a tool to service the HR industry.-->
+                            <!--</p>-->
+                            <!--<a href="mareana.html" class="custom_underline mar-ver-sm">-->
+                                <!--<span class="font-green font-bold-400">View Case</span>-->
+                            <!--</a>-->
+                        <!--</div>-->
+
+                    <!--</figure>-->
+
+                <!--</li>-->
+
+                <!--<li class="portfolio-mix web-design border-bottom pad-ver-lg">-->
+                    <!--<figure class="portfolio-item font-grey-dark">-->
+                        <!--<div class="col-sm-5">-->
+                            <!--<a href="takeyourpick.html">-->
+                                <!--<img class="img-responsive" src="assets/achievers/takeyourpick/TYP-whole.png" alt="Take Your Pick">-->
+                            <!--</a>-->
+                        <!--</div>-->
+                        <!--<div class="col-sm-5 col-sm-offset-1  portfolio-desc-r">-->
+                            <!--<h3 class="">Achievers</h3>-->
+                            <!--<h4 class="pad-ver-sm">Product design for a survey application</h4>-->
+                            <!--<p class="portfolio-item-description">"Take Your Pick" is a mobile and tablet survey application for Achiever's marketing team to use at events to gather attendees' information.-->
+                                <!--The product design process for this case goes through the 5 steps of design thinking: empathy, define, ideate, prototype, and test.-->
+                            <!--</p>-->
+                            <!--<a href="takeyourpick.html" class="custom_underline mar-ver-sm">-->
+                                <!--<span class="font-green font-bold-400">View Case</span>-->
+                            <!--</a>-->
+                        <!--</div>-->
+
+                    <!--</figure>-->
+
+                <!--</li>-->
+
+                <!--<li class="portfolio-mix web-design border-bottom pad-ver-lg">-->
+                    <!--<figure class="portfolio-item font-grey-dark">-->
+                        <!--<div class="col-sm-5">-->
+                            <!--<a href="MAdashboard.html">-->
+                                <!--<img class="img-responsive" src="assets/mobileaction/dashboard/MADash-whole.png" alt="Mobile Action Dashboard">-->
+                            <!--</a>-->
+                        <!--</div>-->
+                        <!--<div class="col-sm-5 col-sm-offset-1  portfolio-desc-r">-->
+                            <!--<h3 class="">Mobile Action</h3>-->
+                            <!--<h4 class="pad-ver-sm">Product redesign for a dashboard</h4>-->
+                            <!--<p class="portfolio-item-description">Mobile Action's Dashboard allows users to see an app's ranking and visibility in the Apple App Store and the Google Play Store.-->
+                                <!--The product design process for this project uses the "Double Diamond" design approach.-->
+                            <!--</p>-->
+                            <!--<a href="MAdashboard.html" class="custom_underline mar-ver-sm">-->
+                                <!--<span class="font-green font-bold-400">View Case</span>-->
+                            <!--</a>-->
+                        <!--</div>-->
+
+                    <!--</figure>-->
+                <!--</li>-->
+
+                <!--<li class="portfolio-mix web-design pad-ver-lg">-->
+                    <!--<figure class="portfolio-item font-grey-dark">-->
+                        <!--<div class="col-sm-5">-->
+                            <!--<img class="img-responsive img-center" src="images/spotify.png" alt="Spotify">-->
+                        <!--</div>-->
+                        <!--<div class="col-sm-5 col-sm-offset-1  portfolio-desc-r">-->
+                            <!--<h3 class="">Spotify</h3>-->
+                            <!--<h4 class="pad-ver-sm">Concept design for experiencing music simultaneously with friends</h4>-->
+                            <!--<p class="portfolio-item-description">Spotify is a music experience. What Spotify users would like to see next is the capability to socially connect, collaborate, and experience music together at any given time — despite the distance.-->
+                                <!--This case study explores possible designs concepts for sharing and experiencing music on another level.-->
+                            <!--</p>-->
+                            <!--<div type="" class="btn-null mar-ver-sm">Coming Soon</div>-->
+                        <!--</div>-->
+                    <!--</figure>-->
+                <!--</li>-->
+
+            <!--</ul>-->
         </div>
 
         <div class="footer pad-ver-md">
