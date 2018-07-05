@@ -253,16 +253,19 @@ a:hover {
 }
 
 /* for logo */
-.navbar a.navbar-brand {
+.navbar a.navbar-brand img {
   height: auto;
   margin-top: 3px;
+  height: 36px;
 }
+
+
 /* end logo */
 
 .navbar .navbar-nav li a:hover {
   background-color: #fff;
   outline: none;
-  color: #111111;
+  color: #5F9A73;
 }
 
 .navbar .navbar-nav li a:focus {
@@ -291,10 +294,13 @@ a:hover {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
-.navbar .navbar-nav .active a,
-.navbar .navbar-nav .active a:hover {
+.navbar .navbar-nav .active a {
   background-color: #fff;
   color: #515151;
+}
+
+.navbar .navbar-nav .active a:hover {
+  color: #5F9A73;
 }
 
 .navbar .navbar-brand {
@@ -378,7 +384,7 @@ a:hover {
   /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
 }
 .jumbotron p {
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 1.333333333333333em;
   /*color: #ffffff;*/
   /*text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);*/
@@ -699,7 +705,7 @@ a:hover {
   /*font-family: "Book Antiqua", sans-serif;*/
   text-align: center;
   /*padding: 100px 0; original*/
-  padding-top: 100px;
+  /*padding-top: 100px;*/
   /*upper border*/
     /*-webkit-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
     /*-moz-box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.1);*/
@@ -2440,6 +2446,7 @@ opacity: 0.0;
     display: inline-block;
     padding: 8px 16px;
     color: #bbbbbb;
+    font-weight: bold;
   }
   .navbar .navbar-collapse {
     background-color: rgba(255, 255, 255, 0);
