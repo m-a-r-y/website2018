@@ -274,7 +274,7 @@ img.leftimg{float:left;padding-right:20px;}
 .portfolio-section .quote p {
     font-family: 'Merriweather', serif;
     font-size: 1.5em;
-    line-height: 1.5em;
+    line-height: 2em;
     color: #717171;
 }
 
@@ -439,10 +439,6 @@ img.leftimg{float:left;padding-right:20px;}
         font-size: 2em;
     }
 
-    #MAdashboard-title {
-        background-image: url(../assets/mobileaction/dashboard/opto-title-bg.png);
-        background-position: center;
-    }
     #sms-title {
         background-image: url(../assets/securemysocial/opto-title-bg3.png);
         background-position: center;
