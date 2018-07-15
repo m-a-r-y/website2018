@@ -435,6 +435,10 @@ img.leftimg{float:left;padding-right:20px;}
         height: 58%;
     }
 
+    #safetymap {
+        width: 100%;
+    }
+
     #sms-title h1 {
         font-size: 2em;
     }
