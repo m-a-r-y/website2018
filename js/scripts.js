@@ -103,5 +103,7 @@ jQuery(document).ready(function() {
 	// PrettyPhoto
 	$('#about .round-outline a').prettyPhoto();
 
+	AOS.init();
+
 
 });
