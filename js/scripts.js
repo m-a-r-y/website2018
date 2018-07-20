@@ -104,7 +104,6 @@ jQuery(document).ready(function() {
 	$('#about .round-outline a').prettyPhoto();
 
 	AOS.init({
-		delay: 100,
 		duration: 500,
 	});
 
