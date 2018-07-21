@@ -28,11 +28,6 @@ jQuery(document).ready(function() {
 			});
 		//});
 
-		AOS.init({
-			offset: 200,
-			delay: 100,
-			duration: 500,
-		});
 
 	});
 
@@ -68,6 +63,12 @@ jQuery(document).ready(function() {
 			$('.scrolltotop').removeClass('show-to-top');
 		}
 
+	});
+
+	AOS.init({
+		offset: 200,
+		delay: 100,
+		duration: 500,
 	});
 
 	// Nice scroll to DIVs
