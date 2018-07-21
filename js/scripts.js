@@ -34,6 +34,11 @@ jQuery(document).ready(function() {
 			duration: 500,
 		});
 
+		//alert('done');
+		$('#loader').removeClass("loadscreen");
+		$('#aboutmepage').addClass("pageFade");
+		$('.portfolio-section').addClass("pageFade");
+
 	});
 
 

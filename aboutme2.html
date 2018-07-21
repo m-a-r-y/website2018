@@ -24,8 +24,6 @@
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="css/pace.css" />
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
@@ -41,6 +39,9 @@
     <script src="lightbox/js/jquery-1.11.0.min.js"></script>
     <script src="lightbox/js/lightbox.min.js"></script>
     <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="aos-master/dist/aos.css" />
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -50,7 +51,7 @@
 
 <body data-spy="scroll" data-target="#my-nav" id="cbp-so-scroller">
 
-    <div id="loader"></div>
+<div id="loader" class="loadscreen"></div>
 
 <!-- Navigation Bar -->
 <div class="navbar navbar-fixed-top">
@@ -79,92 +80,92 @@
 <!-- End of Navigation Bar -->
 
 
-    <div id="aboutmepage" class="">
-        <section id="aboutmeheader" class="row text-center font-white text-shadow bg-grey-dark">
-            <div class="col-md-8 pad-ver-md">
-                <div id="headerleft" class="  ">
-                    <h1 class="font-bold-none">I design cool things</h1>
-                    <h2 class="font-bold-none pad-ver-md">California raised, New York livin'</h2>
-                </div>
+<div id="aboutmepage" class="">
+    <section id="aboutmeheader" class="row text-center font-white text-shadow bg-grey-dark">
+        <div class="col-md-8 pad-ver-md">
+            <div id="headerleft" class="  ">
+                <h1 class="font-bold-none">I design cool things</h1>
+                <h2 class="font-bold-none pad-ver-md">California raised, New York livin'</h2>
             </div>
-            <div class="col-md-4 pad-none">
-                <div class=" ">
-                    <img src="images/headshot1.JPG" class="img-responsive">
-                </div>
+        </div>
+        <div class="col-md-4 pad-none">
+            <div class=" ">
+                <img src="images/headshot1.JPG" class="img-responsive">
             </div>
-        </section>
-        <!-- End of Jumbotron -->
+        </div>
+    </section>
+    <!-- End of Jumbotron -->
 
-        <!-- About Me Section -->
-        <section id="aboutmebody" class=" bg-green">
+    <!-- About Me Section -->
+    <section id="aboutmebody" class=" bg-green">
 
-            <div id="" class="pad-top-lg">
-                <div class="container">
-                    <div id="intro" class="text-center clearfix">
-                        <!--<h2>About Me</h2>-->
-                        <!--<div class="main-photo pad-btm-md" id="header-photo">-->
-                            <!--<figure class="round-outline"><img class="round-photo" src="assets/mary_header.jpg" alt="Mary's picture"></figure>-->
-                        <!--</div>-->
-                        <!--<p class="col-md-8 col-md-offset-2 pad-ver-sm clearfix">I am currently pursuing a Master’s degree at Cornell University in Information Science with a focus in <span style="">Human Computer Interaction & UI Design.</span>-->
-                        <!--</p>-->
-                        <!--<p class="col-md-8 col-md-offset-2 pad-ver-sm clearfix">And I like smart human-centered product designs.-->
+        <div id="" class="pad-top-lg">
+            <div class="container">
+                <div id="intro" class="text-center clearfix">
+                    <!--<h2>About Me</h2>-->
+                    <!--<div class="main-photo pad-btm-md" id="header-photo">-->
+                        <!--<figure class="round-outline"><img class="round-photo" src="assets/mary_header.jpg" alt="Mary's picture"></figure>-->
+                    <!--</div>-->
+                    <!--<p class="col-md-8 col-md-offset-2 pad-ver-sm clearfix">I am currently pursuing a Master’s degree at Cornell University in Information Science with a focus in <span style="">Human Computer Interaction & UI Design.</span>-->
+                    <!--</p>-->
+                    <!--<p class="col-md-8 col-md-offset-2 pad-ver-sm clearfix">And I like smart human-centered product designs.-->
+                    </p>
+                </div>
+
+                <div id="timeline" class="mar-ver-lg font-grey-dark">
+                    <div class="timeframe mar-ver-md clearfix">
+                        <p class="col-md-3 time-title ">UC Irvine</br>
+                            2011
+                        </p>
+                        <img class="time-icon mar-top-sm col-md-2 col-xs-hidden " src="images/icons/graduation.png" alt="graduation icon">
+                        <p class="col-md-7 time-description">Graduated with a Bachelor of Arts in International Studies and Sociology.
+                            I enjoy learning and understanding why people do the things that they do.
                         </p>
                     </div>
-
-                    <div id="timeline" class="mar-ver-lg font-grey-dark">
-                        <div class="timeframe mar-ver-md clearfix">
-                            <p class="col-md-3 time-title ">UC Irvine</br>
-                                2011
-                            </p>
-                            <img class="time-icon mar-top-sm col-md-2 col-xs-hidden " src="images/icons/graduation.png" alt="graduation icon">
-                            <p class="col-md-7 time-description">Graduated with a Bachelor of Arts in International Studies and Sociology.
-                                I enjoy learning and understanding why people do the things that they do.
-                            </p>
-                        </div>
-                        <div class="timeframe mar-ver-md clearfix ">
-                            <p class="col-md-3 time-title">Exploring Careers</br>
-                                2012 - 2014
-                            </p>
-                            <img class="time-icon mar-top-sm col-md-2 col-xs-hidden" src="images/icons/map.png" alt="map icon">
-                            <p class="col-md-7 time-description">Worked in hospital administration and human resources where I interacted mostly with "non-techy" people and realized how poor designs affect and hinder efficient workflow.
-                            </p>
-                        </div>
-                        <div class="timeframe mar-ver-md clearfix ">
-                            <p class="col-md-3 time-title">Web Development</br>
-                                2014 - 2017
-                            </p>
-                            <img class="time-icon mar-top-sm col-md-2 col-xs-hidden " src="images/icons/dev.png" alt="dev icon">
-                            <p class="col-md-7 time-description">Coded as a front-end developer in Silicon Valley in CA. During this time, I learned the technical skill sets to execute designs to take it to production.
-                            </p>
-                        </div>
-                        <div class="timeframe mar-ver-md clearfix ">
-                            <p class="col-md-3 time-title">Design Work </br>
-                                2016 - Present
-                            </p>
-                            <img class="time-icon mar-top-sm col-md-2 col-xs-hidden " src="images/icons/paint.png" alt="paint icon">
-                            <p class="col-md-7 time-description">Flexed design skills in web, product, and visual design.
-                                During this sprint, I am connecting my interests and past experiences and emphasized on human-centered designs first.
-                            </p>
-                        </div>
-                        <div class="timeframe mar-ver-md clearfix ">
-                            <p class="col-md-3 time-title">Cornell University</br>
-                                2017 - Present
-                            </p>
-                            <img class="time-icon mar-top-sm col-md-2 col-xs-hidden " src="images/icons/cornell.png" alt="cornell icon">
-                            <p class="col-md-7 time-description">Made it to a lovely place in Ithaca, NY to get a Masters in Information Science with a focus on <span class="font-bold">Human Computer Interaction & UI Design.</span>
-                            </p>
-                        </div>
+                    <div class="timeframe mar-ver-md clearfix ">
+                        <p class="col-md-3 time-title">Exploring Careers</br>
+                            2012 - 2014
+                        </p>
+                        <img class="time-icon mar-top-sm col-md-2 col-xs-hidden" src="images/icons/map.png" alt="map icon">
+                        <p class="col-md-7 time-description">Worked in hospital administration and human resources where I interacted mostly with "non-techy" people and realized how poor designs affect and hinder efficient workflow.
+                        </p>
                     </div>
-
-                    <div id="connect" class="text-center mar-ver-lg clearfix">
-                        <h4 class="pad-ver-md font-light">I always enjoy a good design talk over some tea and/or coffee. <a href="https://www.linkedin.com/in/maaaryle" target="_blank"><span id="letsconnect">Let's Connect!</span></a></h4>
+                    <div class="timeframe mar-ver-md clearfix ">
+                        <p class="col-md-3 time-title">Web Development</br>
+                            2014 - 2017
+                        </p>
+                        <img class="time-icon mar-top-sm col-md-2 col-xs-hidden " src="images/icons/dev.png" alt="dev icon">
+                        <p class="col-md-7 time-description">Coded as a front-end developer in Silicon Valley in CA. During this time, I learned the technical skill sets to execute designs to take it to production.
+                        </p>
                     </div>
-
+                    <div class="timeframe mar-ver-md clearfix ">
+                        <p class="col-md-3 time-title">Design Work </br>
+                            2016 - Present
+                        </p>
+                        <img class="time-icon mar-top-sm col-md-2 col-xs-hidden " src="images/icons/paint.png" alt="paint icon">
+                        <p class="col-md-7 time-description">Flexed design skills in web, product, and visual design.
+                            During this sprint, I am connecting my interests and past experiences and emphasized on human-centered designs first.
+                        </p>
+                    </div>
+                    <div class="timeframe mar-ver-md clearfix ">
+                        <p class="col-md-3 time-title">Cornell University</br>
+                            2017 - Present
+                        </p>
+                        <img class="time-icon mar-top-sm col-md-2 col-xs-hidden " src="images/icons/cornell.png" alt="cornell icon">
+                        <p class="col-md-7 time-description">Made it to a lovely place in Ithaca, NY to get a Masters in Information Science with a focus on <span class="font-bold">Human Computer Interaction & UI Design.</span>
+                        </p>
+                    </div>
                 </div>
+
+                <div id="connect" class="text-center mar-ver-lg clearfix">
+                    <h4 class="pad-ver-md font-light">I always enjoy a good design talk over some tea and/or coffee. <a href="https://www.linkedin.com/in/maaaryle" target="_blank"><span id="letsconnect">Let's Connect!</span></a></h4>
+                </div>
+
             </div>
-        </section>
-        <!-- End of About Me Section -->
-    </div>
+        </div>
+    </section>
+    <!-- End of About Me Section -->
+</div>
 
     <!--<section id="aboutmepic">-->
     <!--<figure class="">-->
@@ -243,6 +244,7 @@
 <script type="text/javascript" src="js/classie.js"></script>
 <script type="text/javascript" src="js/scripts.js"></script>
 
+<script src="aos-master/dist/aos.js"></script>
 
 </body>
 </html>

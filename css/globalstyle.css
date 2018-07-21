@@ -262,6 +262,22 @@
     display: none;
 }
 
+.loadscreen {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    content: "";
+    z-index: 3001;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:#fff;
+}
+
 .custom_underline_span {
     text-decoration: underline;
     text-decoration-color: #5F9A73;
