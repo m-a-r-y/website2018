@@ -35,7 +35,8 @@ jQuery(document).ready(function() {
 		});
 
 		//alert('done');
-		$('#loader').removeClass("loadscreen");
+
+		$('#loader').addClass("hideme");
 		$('#aboutmepage').addClass("pageFade");
 		$('.portfolio-section').addClass("pageFade");
 
