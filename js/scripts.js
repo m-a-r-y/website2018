@@ -36,9 +36,13 @@ jQuery(document).ready(function() {
 
 		//alert('done');
 
-		$('#loader').addClass("hideme");
-		$('#aboutmepage').addClass("pageFade");
-		$('.portfolio-section').addClass("pageFade");
+		function removeload() {
+			$('#loader').addClass("hideme");
+			$('#aboutmepage').addClass("pageFade");
+			$('.portfolio-section').addClass("pageFade");
+		};
+
+		setTimeout(function() { removeload(); }, 500);
 
 	});
 
