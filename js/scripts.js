@@ -29,9 +29,10 @@ jQuery(document).ready(function() {
 		//});
 
 		AOS.init({
-			offset: 200,
-			delay: 100,
-			duration: 500,
+			disable: 'mobile',
+			duration: 350,
+			delay: 150,
+
 		});
 
 		//alert('done');
