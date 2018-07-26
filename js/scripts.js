@@ -30,9 +30,7 @@ jQuery(document).ready(function() {
 
 		AOS.init({
 			disable: 'mobile',
-			duration: 350,
-			delay: 150,
-
+			duration: 750,
 		});
 
 		//alert('done');

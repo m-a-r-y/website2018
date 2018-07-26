@@ -351,6 +351,9 @@ img.leftimg{float:left;padding-right:20px;}
 .bg-fade-red {
     background-color: #F6E3E3;
 }
+.bg-fade-green {
+    background-color: #f8fef8;
+}
 .bg-home {
     background-image: url(../images/bg-green.png);
     background-position: left;
@@ -372,6 +375,11 @@ img.leftimg{float:left;padding-right:20px;}
     background-image: url(../images/bg-yellow-lines.png);
     background-position: right;
     background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-yellow-bubbles {
+    background-image: url(../images/bg-yellow-bubbles.png);
+    background-position: center;
     background-repeat: no-repeat;
 }
 .bg-lines-yellow2 {
