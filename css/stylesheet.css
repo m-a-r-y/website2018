@@ -422,10 +422,10 @@ img.leftimg{float:left;padding-right:20px;}
     background-color: #547980;
 }
 .bg-mareana {
-    background-image: url(../assets/mareana/mareana-title.png);
+    background-image: url(../assets/mareana/mareanahome2.png);
     background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: contain;
+    /*background-attachment: fixed;*/
 }
 /* ==========================================================================
    End Fonts & Backgrounds
